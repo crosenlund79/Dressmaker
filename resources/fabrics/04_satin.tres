@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="FabricDefinition" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/fabric_definition.gd" id="1_q3mag"]
+[ext_resource type="Texture2D" path="res://assets/fabrics/satin.png" id="2_wydfi"]
+
+[resource]
+script = ExtResource("1_q3mag")
+id = "satin"
+display_name = "Satin"
+texture = ExtResource("2_wydfi")
+tile_size = 240.0
+default_color = Color(0.207843, 0.360784, 0.490196, 1)
+default_secondary = Color(1, 1, 1, 1)

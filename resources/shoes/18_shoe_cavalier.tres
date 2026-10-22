@@ -1,0 +1,44 @@
+[gd_resource type="Resource" script_class="ShoeDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/shoe_definition.gd" id="1_4q1yx"]
+
+[resource]
+script = ExtResource("1_4q1yx")
+id = "shoe_cavalier"
+display_name = "Cavalier Cuff Boot"
+region_names = PackedStringArray("Upper", "Heel", "Sole", "Cuff", "Buckle")
+region_defaults = PackedColorArray(0.239216, 0.168627, 0.121569, 1, 0.101961, 0.0705882, 0.0470588, 1, 0.101961, 0.0705882, 0.0470588, 1, 0.360784, 0.25098, 0.2, 1, 0.831373, 0.686275, 0.215686, 1)
+shapes = Array[Dictionary]([{
+"k": "poly",
+"p": PackedVector2Array(-12, -13, -12.5, -102, -11, -106, 10, -106, 10.5, -102, 9.5, -22.5, 17, -14.5, 27, -11, 34, -11, 35, -4, 16, -3, 2, -9.2),
+"r": 0,
+"shade": 1.0
+}, {
+"k": "poly",
+"p": PackedVector2Array(-12.5, -10, -2, -10, -6, -4.5, -5.5, 0, -10, 0, -11, -5),
+"r": 1,
+"shade": 1.0
+}, {
+"k": "poly",
+"p": PackedVector2Array(2, -9.2, 16, -3, 34.5, -3, 33.5, 0, 8, 0, 2, -8),
+"r": 2,
+"shade": 1.0
+}, {
+"k": "poly",
+"p": PackedVector2Array(-16, -108, 14, -108, 11.5, -86, -13.5, -86),
+"r": 3,
+"shade": 1.0
+}, {
+"k": "line",
+"p": PackedVector2Array(5, -46, 13, -46, 13, -38, 5, -38, 5, -46),
+"r": 4,
+"shade": 1.0,
+"w": 2.0
+}, {
+"k": "line",
+"p": PackedVector2Array(9, -46, 9, -38),
+"r": 4,
+"shade": 1.0,
+"w": 1.2
+}])
+heel_lift = 10.0

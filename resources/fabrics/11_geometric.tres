@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="FabricDefinition" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/fabric_definition.gd" id="1_j5x5a"]
+[ext_resource type="Texture2D" path="res://assets/fabrics/geometric.png" id="2_ydbdp"]
+
+[resource]
+script = ExtResource("1_j5x5a")
+id = "geometric"
+display_name = "Argyle Geometric"
+texture = ExtResource("2_ydbdp")
+tile_size = 120.0
+default_color = Color(0.913725, 0.768627, 0.415686, 1)
+default_secondary = Color(0.14902, 0.27451, 0.32549, 1)

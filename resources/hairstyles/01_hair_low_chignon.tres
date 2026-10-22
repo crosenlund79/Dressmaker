@@ -1,0 +1,55 @@
+[gd_resource type="Resource" script_class="HairDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/hair_definition.gd" id="1_naqyy"]
+
+[resource]
+script = ExtResource("1_naqyy")
+id = "hair_low_chignon"
+display_name = "Low Chignon"
+color_count = 1
+color_names = PackedStringArray("Hair")
+default_colors = PackedColorArray(0.352941, 0.219608, 0.145098, 1)
+back_shapes = Array[Dictionary]([{
+"k": "circle",
+"p": PackedVector2Array(0.92, 0.72),
+"r": 0,
+"rad": 0.34,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(-0.92, 0.72),
+"r": 0,
+"rad": 0.34,
+"shade": 1.0
+}])
+front_shapes = Array[Dictionary]([{
+"k": "poly",
+"p": PackedVector2Array(-1.133, -0.08, -1.11579, -0.294629, -1.06467, -0.502737, -0.981207, -0.698, -0.867928, -0.874485, -0.728278, -1.02683, -0.5665, -1.15041, -0.387509, -1.24146, -0.196743, -1.29722, -2.08129e-16, -1.316, 0.196743, -1.29722, 0.387509, -1.24146, 0.5665, -1.15041, 0.728278, -1.02683, 0.867928, -0.874485, 0.981207, -0.698, 1.06467, -0.502737, 1.11579, -0.294629, 1.133, -0.08, 1, 0.15, 0.9, -0.3, 0.6, -0.6, 0.2, -0.62, 0, -0.55, -0.2, -0.62, -0.6, -0.6, -0.9, -0.3, -1, 0.15),
+"r": 0,
+"shade": 1.0
+}, {
+"k": "line",
+"p": PackedVector2Array(0, -1.15, -0.5075, -0.7875, -0.805, -0.275),
+"r": 0,
+"shade": 0.78,
+"w": 0.035
+}, {
+"k": "line",
+"p": PackedVector2Array(0, -1.15, -0.25375, -0.83125, -0.4025, -0.3625),
+"r": 0,
+"shade": 0.78,
+"w": 0.035
+}, {
+"k": "line",
+"p": PackedVector2Array(0, -1.15, 0.25375, -0.83125, 0.4025, -0.3625),
+"r": 0,
+"shade": 0.78,
+"w": 0.035
+}, {
+"k": "line",
+"p": PackedVector2Array(0, -1.15, 0.5075, -0.7875, 0.805, -0.275),
+"r": 0,
+"shade": 0.78,
+"w": 0.035
+}])
+crown_height = 0.1

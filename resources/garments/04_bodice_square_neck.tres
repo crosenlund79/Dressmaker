@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="GarmentDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/garment_definition.gd" id="1_p1f66"]
+
+[resource]
+script = ExtResource("1_p1f66")
+id = "bodice_square_neck"
+display_name = "Square-Neck Bodice"
+category = "bodice"
+outline = PackedVector2Array(0, 0.24, 0.4, 0.24, 0.4, -0.07, 0.6, -0.05, 1.03, 0, 1.04, 0.1, 0.99, 0.24, 1.02, 0.6, 1.04, 1, 0, 1, -1.04, 1, -1.02, 0.6, -0.99, 0.24, -1.04, 0.1, -1.03, 0, -0.6, -0.05, -0.4, -0.07, -0.4, 0.24)
+detail_lines = Array[PackedVector2Array]([PackedVector2Array(-0.36, -0.06, -0.36, 0.2, 0.36, 0.2, 0.36, -0.06)])
+detail_dots = PackedVector2Array(0, 0.3, 0, 0.42)
+default_fabric = "brocade"
+default_color = Color(0.184314, 0.364706, 0.313726, 1)
+default_secondary = Color(0.847059, 0.760784, 0.478431, 1)
+default_trim = Color(0.85098, 0.698039, 0.360784, 1)
+tags = PackedStringArray("renaissance")

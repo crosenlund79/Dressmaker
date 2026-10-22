@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="ShoeDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/shoe_definition.gd" id="1_s27l0"]
+
+[resource]
+script = ExtResource("1_s27l0")
+id = "shoe_stiletto"
+display_name = "High Stiletto Pump"
+region_names = PackedStringArray("Upper", "Heel", "Sole")
+region_defaults = PackedColorArray(0.690196, 0, 0.164706, 1, 0.690196, 0, 0.164706, 1, 0.0666667, 0.0666667, 0.0666667, 1)
+shapes = Array[Dictionary]([{
+"k": "poly",
+"p": PackedVector2Array(-12, -37, -13, -47, -2, -46, 7, -31.3, 17, -18.1, 27, -11, 33, -8, 40, -4, 16, -3, 2, -24.08),
+"r": 0,
+"shade": 1.0
+}, {
+"k": "poly",
+"p": PackedVector2Array(-12, -34, -5, -34, -9.5, 0, -11.5, 0),
+"r": 1,
+"shade": 1.0
+}, {
+"k": "poly",
+"p": PackedVector2Array(2, -24.08, 16, -3, 39.5, -3, 38.5, 0, 8, 0, 2, -20),
+"r": 2,
+"shade": 1.0
+}])
+heel_lift = 34.0

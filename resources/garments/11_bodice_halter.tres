@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="GarmentDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/garment_definition.gd" id="1_j3t8n"]
+
+[resource]
+script = ExtResource("1_j3t8n")
+id = "bodice_halter"
+display_name = "Halter Neck Bodice"
+category = "bodice"
+outline = PackedVector2Array(0, 0.26, 0.08, 0, 0.16, -0.14, 0.3, -0.14, 0.33, 0, 0.62, 0.22, 0.98, 0.29, 0.98, 0.45, 1.02, 0.75, 1.04, 1, 0, 1.02, -1.04, 1, -1.02, 0.75, -0.98, 0.45, -0.98, 0.29, -0.62, 0.22, -0.33, 0, -0.3, -0.14, -0.16, -0.14, -0.08, 0)
+detail_lines = Array[PackedVector2Array]([PackedVector2Array(-0.3, -0.11, 0, -0.1, 0.3, -0.11)])
+detail_dots = PackedVector2Array(0, -0.1)
+default_fabric = "polka"
+default_color = Color(0.113725, 0.207843, 0.341176, 1)
+default_secondary = Color(0.945098, 0.980392, 0.933333, 1)
+default_trim = Color(0.945098, 0.980392, 0.933333, 1)
+tags = PackedStringArray("modern")

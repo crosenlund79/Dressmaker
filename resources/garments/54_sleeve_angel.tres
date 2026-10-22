@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="GarmentDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/garment_definition.gd" id="1_hdfhn"]
+
+[resource]
+script = ExtResource("1_hdfhn")
+id = "sleeve_angel"
+display_name = "Angel Kimono Sleeve"
+category = "sleeve"
+outline = PackedVector2Array(-1.1, 0.02, -0.4, -0.08, 0.6, -0.06, 1.4, 0.05, 3.2, 0.35, 3.3, 1.1, 1.2, 1.16, -0.6, 0.95, -1.1, 0.6)
+detail_lines = Array[PackedVector2Array]([PackedVector2Array(1.4, 0.05, 1.2, 1.16), PackedVector2Array(2.3, 0.2, 2.2, 1.12)])
+detail_dots = PackedVector2Array()
+default_fabric = "floral"
+default_color = Color(0.105882, 0.14902, 0.231373, 1)
+default_secondary = Color(0.878431, 0.643137, 0.345098, 1)
+default_trim = Color(0.878431, 0.643137, 0.345098, 1)
+tags = PackedStringArray("flowing", "kimono")

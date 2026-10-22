@@ -1,0 +1,50 @@
+[gd_resource type="Resource" script_class="ShoeDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/shoe_definition.gd" id="1_rf1we"]
+
+[resource]
+script = ExtResource("1_rf1we")
+id = "shoe_spats"
+display_name = "Spat Shoes"
+region_names = PackedStringArray("Upper", "Heel", "Sole", "Spats", "Buttons")
+region_defaults = PackedColorArray(0.0784314, 0.0784314, 0.0784314, 1, 0.231373, 0.231373, 0.231373, 1, 0.231373, 0.231373, 0.231373, 1, 0.909804, 0.882353, 0.815686, 1, 0.419608, 0.419608, 0.419608, 1)
+shapes = Array[Dictionary]([{
+"k": "poly",
+"p": PackedVector2Array(-12, -9, -13, -23, -2, -22, 7, -18.7, 17, -13.9, 27, -11, 31, -10, 35, -6, 34, -3, 16, -3, 2, -6.72),
+"r": 0,
+"shade": 1.0
+}, {
+"k": "poly",
+"p": PackedVector2Array(-12.5, -6, -2.5, -6, -3.5, 0, -11.5, 0),
+"r": 1,
+"shade": 1.0
+}, {
+"k": "poly",
+"p": PackedVector2Array(2, -6.72, 16, -3, 34.5, -3, 33.5, 0, 8, 0, 2, -6),
+"r": 2,
+"shade": 1.0
+}, {
+"k": "poly",
+"p": PackedVector2Array(-12.5, -54, 9.5, -54, 9.5, -18.7, 20, -12, 12, -7, -12.5, -13),
+"r": 3,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(-9, -49),
+"r": 4,
+"rad": 1.4,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(-9, -43),
+"r": 4,
+"rad": 1.4,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(-9, -37),
+"r": 4,
+"rad": 1.4,
+"shade": 1.0
+}])
+heel_lift = 6.0

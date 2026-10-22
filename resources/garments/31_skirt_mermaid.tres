@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="GarmentDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/garment_definition.gd" id="1_scd6k"]
+
+[resource]
+script = ExtResource("1_scd6k")
+id = "skirt_mermaid"
+display_name = "Mermaid Skirt"
+category = "skirt"
+outline = PackedVector2Array(0, -0.03, 1, -0.03, 1.06, 0.19, 0.96, 0.45, 0.84, 0.66, 1.1, 0.8, 1.7, 0.95, 2, 1.04, 0, 1, -2, 1.04, -1.7, 0.95, -1.1, 0.8, -0.84, 0.66, -0.96, 0.45, -1.06, 0.19, -1, -0.03)
+detail_lines = Array[PackedVector2Array]([PackedVector2Array(0.84, 0.66, 1.1, 1), PackedVector2Array(-0.84, 0.66, -1.1, 1), PackedVector2Array(0.4, 0.68, 0.6, 1), PackedVector2Array(-0.4, 0.68, -0.6, 1)])
+detail_dots = PackedVector2Array()
+default_fabric = "satin"
+default_color = Color(0.0431373, 0.431373, 0.309804, 1)
+default_secondary = Color(0.654902, 0.788235, 0.341176, 1)
+default_trim = Color(0.94902, 0.909804, 0.811765, 1)
+tags = PackedStringArray("formal", "fitted")

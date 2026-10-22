@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="GarmentDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/garment_definition.gd" id="1_w7c7i"]
+
+[resource]
+script = ExtResource("1_w7c7i")
+id = "sleeve_epaulette"
+display_name = "Military Epaulette Sleeve"
+category = "sleeve"
+outline = PackedVector2Array(-1.2, 0, -0.6, -0.14, 0.6, -0.16, 1.9, -0.1, 2.2, 0.04, 1.9, 0.14, 1.15, 0.16, 1.15, 0.5, 1.12, 1, -1.12, 1, -1.12, 0.5)
+detail_lines = Array[PackedVector2Array]([PackedVector2Array(1.9, 0.14, 1.9, 0.24), PackedVector2Array(1.6, 0.15, 1.6, 0.25), PackedVector2Array(1.3, 0.16, 1.3, 0.26), PackedVector2Array(-0.6, 0.86, 0.6, 0.8), PackedVector2Array(-0.6, 0.92, 0.6, 0.86), PackedVector2Array(-1.2, 0.05, 2.1, 0.05)])
+detail_dots = PackedVector2Array()
+default_fabric = "velvet"
+default_color = Color(0.545098, 0.117647, 0.168627, 1)
+default_secondary = Color(0.168627, 0.168627, 0.168627, 1)
+default_trim = Color(0.886275, 0.756863, 0.419608, 1)
+tags = PackedStringArray("military")

@@ -1,0 +1,32 @@
+[gd_resource type="Resource" script_class="BodyDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/body_definition.gd" id="1_yust8"]
+
+[resource]
+script = ExtResource("1_yust8")
+id = "statuesque"
+display_name = "Statuesque"
+description = "Tall, broad and commanding."
+head_radius = 38.0
+head_center_y = -642.0
+neck_hw = 17.0
+shoulder_y = -568.0
+shoulder_hw = 81.0
+chest_hw = 64.0
+bust_hw = 71.0
+waist_y = -430.0
+waist_hw = 48.0
+hip_y = -356.0
+hip_hw = 75.0
+knee_y = -196.0
+leg_hw_top = 30.0
+leg_hw_knee = 17.0
+leg_hw_ankle = 10.0
+ankle_y = -26.0
+ankle_x = 27.0
+foot_scale = 1.1
+arm_length = 258.0
+arm_hw_top = 14.0
+arm_hw_wrist = 8.0
+arm_angle_deg = 16.0
+skin_color = Color(0.82, 0.62, 0.48, 1)

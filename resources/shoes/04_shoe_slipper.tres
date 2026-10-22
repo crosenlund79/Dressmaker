@@ -1,0 +1,56 @@
+[gd_resource type="Resource" script_class="ShoeDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/shoe_definition.gd" id="1_j8eqt"]
+
+[resource]
+script = ExtResource("1_j8eqt")
+id = "shoe_slipper"
+display_name = "Embroidered Slipper"
+region_names = PackedStringArray("Upper", "Sole", "Embroidery")
+region_defaults = PackedColorArray(0.478431, 0.619608, 0.494118, 1, 0.909804, 0.862745, 0.768627, 1, 0.960784, 0.827451, 0.541176, 1)
+shapes = Array[Dictionary]([{
+"k": "poly",
+"p": PackedVector2Array(-12, -5, -13, -14, -4, -12, 8, -12.7, 14, -12.4, 17, -13.3, 27, -11, 31, -10, 35, -6, 34, -3, 16, -3, 2, -4.24),
+"r": 0,
+"shade": 1.0
+}, {
+"k": "poly",
+"p": PackedVector2Array(-12.5, -3, 34.5, -3, 33.5, 0, -12, 0),
+"r": 1,
+"shade": 1.0
+}, {
+"k": "poly",
+"p": PackedVector2Array(18, -13.3, 12, -17.3, 12, -10.3),
+"r": 2,
+"shade": 1.0
+}, {
+"k": "poly",
+"p": PackedVector2Array(18, -13.3, 24, -17.3, 24, -10.3),
+"r": 2,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(18, -13.3),
+"r": 2,
+"rad": 1.8,
+"shade": 0.85
+}, {
+"k": "circle",
+"p": PackedVector2Array(22, -10.2),
+"r": 2,
+"rad": 1.8,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(17.5, -13.2),
+"r": 2,
+"rad": 1.8,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(13, -10.2),
+"r": 2,
+"rad": 1.8,
+"shade": 1.0
+}])
+heel_lift = 2.0

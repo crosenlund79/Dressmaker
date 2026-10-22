@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="GarmentDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/garment_definition.gd" id="1_t7xy1"]
+
+[resource]
+script = ExtResource("1_t7xy1")
+id = "sleeve_lantern"
+display_name = "Lantern Sleeve"
+category = "sleeve"
+outline = PackedVector2Array(-1.1, 0.02, -0.4, -0.08, 0.5, -0.08, 1.15, 0, 1.15, 0.45, 1.9, 0.62, 2.1, 0.75, 1.7, 0.88, 1.12, 0.93, 1.1, 1, -1.1, 1, -1.12, 0.93, -1.7, 0.86, -1.9, 0.74, -1.6, 0.6, -1.12, 0.45)
+detail_lines = Array[PackedVector2Array]([PackedVector2Array(-1.12, 0.45, 1.15, 0.45), PackedVector2Array(0, 0.47, 0, 0.92), PackedVector2Array(-1.12, 0.93, 1.12, 0.93)])
+detail_dots = PackedVector2Array()
+default_fabric = "satin"
+default_color = Color(0.615686, 0.00784314, 0.0313726, 1)
+default_secondary = Color(0.956863, 0.54902, 0.0235294, 1)
+default_trim = Color(0.980392, 0.639216, 0.027451, 1)
+tags = PackedStringArray("modern")

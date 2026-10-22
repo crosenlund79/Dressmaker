@@ -1,0 +1,83 @@
+[gd_resource type="Resource" script_class="JewelryDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/jewelry_definition.gd" id="1_yby8b"]
+
+[resource]
+script = ExtResource("1_yby8b")
+id = "tiara_pearl_diadem"
+display_name = "Pearl Diadem"
+category = "tiara"
+shapes = Array[Dictionary]([{
+"k": "line",
+"p": PackedVector2Array(-26.3114, 7.89576, -23.8313, 5.70028, -20.3665, 3.7651, -16.0601, 2.17018, -11.0902, 0.981407, -5.66209, 0.247912, -5.14352e-15, 0, 5.66209, 0.247912, 11.0902, 0.981407, 16.0601, 2.17018, 20.3665, 3.7651, 23.8313, 5.70028, 26.3114, 7.89576),
+"r": 0,
+"shade": 1.0,
+"w": 2.4
+}, {
+"k": "circle",
+"p": PackedVector2Array(-20.7846, 2),
+"r": 1,
+"rad": 2.2,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(-16.0847, -0.817754),
+"r": 1,
+"rad": 2.2,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(-10.9066, -2.63203),
+"r": 1,
+"rad": 2.2,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(-5.50912, -3.65342),
+"r": 1,
+"rad": 2.2,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(-0.0227776, -3.9988),
+"r": 1,
+"rad": 2.2,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(5.46409, -3.66073),
+"r": 1,
+"rad": 2.2,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(10.8628, -2.64468),
+"r": 1,
+"rad": 2.2,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(16.0431, -0.836481),
+"r": 1,
+"rad": 2.2,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(20.747, 1.97414),
+"r": 1,
+"rad": 2.2,
+"shade": 1.0
+}, {
+"k": "poly",
+"p": PackedVector2Array(-4, 0, 0, -9, 4, 0),
+"r": 0,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(0, -6),
+"r": 1,
+"rad": 2.4,
+"shade": 1.0
+}])
+default_metal = Color(0.831373, 0.686275, 0.215686, 1)
+default_gem = Color(0.956863, 0.937255, 0.901961, 1)

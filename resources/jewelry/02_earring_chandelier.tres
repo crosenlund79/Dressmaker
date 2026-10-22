@@ -1,0 +1,54 @@
+[gd_resource type="Resource" script_class="JewelryDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/jewelry_definition.gd" id="1_p3op6"]
+
+[resource]
+script = ExtResource("1_p3op6")
+id = "earring_chandelier"
+display_name = "Chandelier Earrings"
+category = "earrings"
+shapes = Array[Dictionary]([{
+"k": "circle",
+"p": PackedVector2Array(0, 1),
+"r": 0,
+"rad": 1.8,
+"shade": 1.0
+}, {
+"k": "line",
+"p": PackedVector2Array(0, 1, 0, 6),
+"r": 0,
+"shade": 1.0,
+"w": 1.2
+}, {
+"k": "line",
+"p": PackedVector2Array(-5, 10, 0, 6, 5, 10),
+"r": 0,
+"shade": 1.0,
+"w": 1.2
+}, {
+"k": "line",
+"p": PackedVector2Array(-5, 10, -6, 16, 0, 19, 6, 16, 5, 10),
+"r": 0,
+"shade": 1.0,
+"w": 1.2
+}, {
+"k": "circle",
+"p": PackedVector2Array(-6, 17),
+"r": 1,
+"rad": 1.8,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(0, 20),
+"r": 1,
+"rad": 2.4,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(6, 17),
+"r": 1,
+"rad": 1.8,
+"shade": 1.0
+}])
+default_metal = Color(0.831373, 0.686275, 0.215686, 1)
+default_gem = Color(0.756863, 0.0705882, 0.121569, 1)

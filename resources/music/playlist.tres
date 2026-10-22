@@ -1,0 +1,43 @@
+[gd_resource type="Resource" script_class="MusicPlaylist" load_steps=13 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/music_playlist.gd" id="1_e6un6"]
+[ext_resource type="Script" path="res://scripts/data/music_track.gd" id="2_3uhfb"]
+[ext_resource type="AudioStream" path="res://assets/audio/music/parlour_waltz.ogg" id="3_fy4sr"]
+[ext_resource type="AudioStream" path="res://assets/audio/music/tea_at_half_past_four.ogg" id="4_cwdke"]
+[ext_resource type="AudioStream" path="res://assets/audio/music/lace_and_lavender.ogg" id="5_rpbtb"]
+[ext_resource type="AudioStream" path="res://assets/audio/music/promenade_on_regent_street.ogg" id="6_rj6wm"]
+[ext_resource type="AudioStream" path="res://assets/audio/music/gaslight_nocturne.ogg" id="7_33iv4"]
+
+[sub_resource type="Resource" id="Resource_t6w7x"]
+script = ExtResource("2_3uhfb")
+title = "Parlour Waltz in F"
+description = "A light-footed piano waltz for the afternoon."
+stream = ExtResource("3_fy4sr")
+
+[sub_resource type="Resource" id="Resource_jamcu"]
+script = ExtResource("2_3uhfb")
+title = "Tea at Half Past Four"
+description = "A gentle string quartet with a flute reprise."
+stream = ExtResource("4_cwdke")
+
+[sub_resource type="Resource" id="Resource_nqctv"]
+script = ExtResource("2_3uhfb")
+title = "Lace & Lavender"
+description = "A music-box lullaby over harp arpeggios."
+stream = ExtResource("5_rpbtb")
+
+[sub_resource type="Resource" id="Resource_qcw3a"]
+script = ExtResource("2_3uhfb")
+title = "Promenade on Regent Street"
+description = "A courtly minuet for piano and strings."
+stream = ExtResource("6_rj6wm")
+
+[sub_resource type="Resource" id="Resource_ldqnu"]
+script = ExtResource("2_3uhfb")
+title = "Gaslight Nocturne"
+description = "A slow, dreamy piano nocturne."
+stream = ExtResource("7_33iv4")
+
+[resource]
+script = ExtResource("1_e6un6")
+tracks = Array[ExtResource("2_3uhfb")]([SubResource("Resource_t6w7x"), SubResource("Resource_jamcu"), SubResource("Resource_nqctv"), SubResource("Resource_qcw3a"), SubResource("Resource_ldqnu")])

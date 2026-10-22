@@ -1,0 +1,32 @@
+[gd_resource type="Resource" script_class="ShoeDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/shoe_definition.gd" id="1_6ushl"]
+
+[resource]
+script = ExtResource("1_6ushl")
+id = "shoe_clog"
+display_name = "Painted Clog"
+region_names = PackedStringArray("Upper", "Heel", "Sole", "Painted Toe")
+region_defaults = PackedColorArray(0.85098, 0.643137, 0.254902, 1, 0.478431, 0.294118, 0.137255, 1, 0.478431, 0.294118, 0.137255, 1, 0.768627, 0.270588, 0.211765, 1)
+shapes = Array[Dictionary]([{
+"k": "poly",
+"p": PackedVector2Array(-12, -17, -13, -35, -2, -34, 7, -25.6, 17, -20.2, 27, -17, 31, -16, 35, -12, 34, -9, 16, -9, 2, -13.96),
+"r": 0,
+"shade": 1.0
+}, {
+"k": "poly",
+"p": PackedVector2Array(-12.5, -14, -2.5, -14, -3.5, 0, -11.5, 0),
+"r": 1,
+"shade": 1.0
+}, {
+"k": "poly",
+"p": PackedVector2Array(2, -13.96, 16, -9, 34.5, -9, 33.5, 0, 8, 0, 2, -13),
+"r": 2,
+"shade": 1.0
+}, {
+"k": "poly",
+"p": PackedVector2Array(22, -18, 27, -17, 31, -16, 35, -12, 34, -9, 21, -9),
+"r": 3,
+"shade": 1.0
+}])
+heel_lift = 14.0

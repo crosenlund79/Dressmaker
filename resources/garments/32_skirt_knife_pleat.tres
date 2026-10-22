@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="GarmentDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/garment_definition.gd" id="1_plmd3"]
+
+[resource]
+script = ExtResource("1_plmd3")
+id = "skirt_knife_pleat"
+display_name = "Knife-Pleated Skirt"
+category = "skirt"
+outline = PackedVector2Array(0, -0.03, 1, -0.03, 1.15, 0.19, 1.5, 0.74, 1.5, 0.78, 1.35, 0.74, 1.2, 0.78, 1.05, 0.74, 0.9, 0.78, 0.75, 0.74, 0.6, 0.78, 0.45, 0.74, 0.3, 0.78, 0.15, 0.74, 0, 0.78, -0.15, 0.74, -0.3, 0.78, -0.45, 0.74, -0.6, 0.78, -0.75, 0.74, -0.9, 0.78, -1.05, 0.74, -1.2, 0.78, -1.35, 0.74, -1.5, 0.78, -1.5, 0.74, -1.15, 0.19, -1, -0.03)
+detail_lines = Array[PackedVector2Array]([PackedVector2Array(0.19, 0, 0.29, 0.75), PackedVector2Array(-0.19, 0, -0.29, 0.75), PackedVector2Array(0.38, 0, 0.58, 0.75), PackedVector2Array(-0.38, 0, -0.58, 0.75), PackedVector2Array(0.57, 0, 0.87, 0.75), PackedVector2Array(-0.57, 0, -0.87, 0.75), PackedVector2Array(0.76, 0, 1.16, 0.75), PackedVector2Array(-0.76, 0, -1.16, 0.75), PackedVector2Array(0.95, 0, 1.45, 0.75), PackedVector2Array(-0.95, 0, -1.45, 0.75)])
+detail_dots = PackedVector2Array()
+default_fabric = "linen"
+default_color = Color(0.14902, 0.27451, 0.32549, 1)
+default_secondary = Color(0.541176, 0.694118, 0.490196, 1)
+default_trim = Color(0.913725, 0.768627, 0.415686, 1)
+tags = PackedStringArray("pleated")

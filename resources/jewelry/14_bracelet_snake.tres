@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="JewelryDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/jewelry_definition.gd" id="1_0dotp"]
+
+[resource]
+script = ExtResource("1_0dotp")
+id = "bracelet_snake"
+display_name = "Snake Coil"
+category = "bracelet"
+shapes = Array[Dictionary]([{
+"k": "line",
+"p": PackedVector2Array(9.5, -5, 9.1763, -4.32707, 8.22724, -3.7, 6.71751, -3.16152, 4.75, -2.74833, 2.45878, -2.48859, 5.81707e-16, -2.4, -2.45878, -2.48859, -4.75, -2.74833, -6.71751, -3.16152, -8.22724, -3.7, -9.1763, -4.32707, -9.5, -5),
+"r": 0,
+"shade": 1.0,
+"w": 1.8
+}, {
+"k": "line",
+"p": PackedVector2Array(9.5, -1, 9.1763, -0.32707, 8.22724, 0.3, 6.71751, 0.838478, 4.75, 1.25167, 2.45878, 1.51141, 5.81707e-16, 1.6, -2.45878, 1.51141, -4.75, 1.25167, -6.71751, 0.838478, -8.22724, 0.3, -9.1763, -0.32707, -9.5, -1),
+"r": 0,
+"shade": 1.0,
+"w": 1.8
+}, {
+"k": "line",
+"p": PackedVector2Array(9.5, 3, 9.1763, 3.67293, 8.22724, 4.3, 6.71751, 4.83848, 4.75, 5.25167, 2.45878, 5.51141, 5.81707e-16, 5.6, -2.45878, 5.51141, -4.75, 5.25167, -6.71751, 4.83848, -8.22724, 4.3, -9.1763, 3.67293, -9.5, 3),
+"r": 0,
+"shade": 1.0,
+"w": 1.8
+}, {
+"k": "circle",
+"p": PackedVector2Array(9, -5),
+"r": 1,
+"rad": 1.6,
+"shade": 1.0
+}])
+default_metal = Color(0.831373, 0.686275, 0.215686, 1)
+default_gem = Color(0.0235294, 0.839216, 0.627451, 1)

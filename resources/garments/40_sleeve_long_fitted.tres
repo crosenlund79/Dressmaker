@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="GarmentDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/garment_definition.gd" id="1_okyas"]
+
+[resource]
+script = ExtResource("1_okyas")
+id = "sleeve_long_fitted"
+display_name = "Long Fitted Sleeve"
+category = "sleeve"
+outline = PackedVector2Array(-1.1, 0.02, -0.4, -0.08, 0.5, -0.08, 1.15, 0, 1.15, 0.5, 1.12, 1, -1.12, 1, -1.12, 0.5)
+detail_lines = Array[PackedVector2Array]([PackedVector2Array(-1.12, 0.9, 1.12, 0.9)])
+detail_dots = PackedVector2Array(0.6, 0.95)
+default_fabric = "cotton"
+default_color = Color(0.482353, 0.176471, 0.227451, 1)
+default_secondary = Color(0.909804, 0.85098, 0.752941, 1)
+default_trim = Color(0.85098, 0.698039, 0.360784, 1)
+tags = PackedStringArray("victorian")

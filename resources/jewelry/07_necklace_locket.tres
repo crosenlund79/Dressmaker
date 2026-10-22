@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="JewelryDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/jewelry_definition.gd" id="1_nkqiy"]
+
+[resource]
+script = ExtResource("1_nkqiy")
+id = "necklace_locket"
+display_name = "Heart Locket"
+category = "necklace"
+shapes = Array[Dictionary]([{
+"k": "line",
+"p": PackedVector2Array(-22, 2, -21.6658, 7.20945, -20.6732, 12.2606, -19.0526, 17, -16.853, 21.2836, -14.1413, 24.9813, -11, 27.9808, -7.52444, 30.1908, -3.82026, 31.5442, 1.34711e-15, 32, 3.82026, 31.5442, 7.52444, 30.1908, 11, 27.9808, 14.1413, 24.9813, 16.853, 21.2836, 19.0526, 17, 20.6732, 12.2606, 21.6658, 7.20945, 22, 2),
+"r": 0,
+"shade": 1.0,
+"w": 1.1
+}, {
+"k": "poly",
+"p": PackedVector2Array(0, 30, -6, 25, -7, 21, -4, 18, 0, 21, 4, 18, 7, 21, 6, 25),
+"r": 0,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(0, 23),
+"r": 1,
+"rad": 2.0,
+"shade": 1.0
+}])
+default_metal = Color(0.831373, 0.686275, 0.215686, 1)
+default_gem = Color(0.901961, 0.223529, 0.27451, 1)

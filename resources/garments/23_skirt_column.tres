@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="GarmentDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/garment_definition.gd" id="1_pfxja"]
+
+[resource]
+script = ExtResource("1_pfxja")
+id = "skirt_column"
+display_name = "Narrow Column Skirt"
+category = "skirt"
+outline = PackedVector2Array(0, -0.03, 1, -0.03, 1.04, 0.19, 0.98, 0.5, 0.86, 0.8, 0.8, 0.97, 0, 0.98, -0.8, 0.97, -0.86, 0.8, -0.98, 0.5, -1.04, 0.19, -1, -0.03)
+detail_lines = Array[PackedVector2Array]([PackedVector2Array(0, 0, 0, 0.98)])
+detail_dots = PackedVector2Array(-0.45, 0.1, -0.45, 0.2, -0.45, 0.3, -0.45, 0.4, -0.45, 0.5, -0.45, 0.6, -0.45, 0.7, -0.45, 0.8)
+default_fabric = "linen"
+default_color = Color(0.427451, 0.407843, 0.458824, 1)
+default_secondary = Color(0.709804, 0.513726, 0.552941, 1)
+default_trim = Color(0.168627, 0.168627, 0.168627, 1)
+tags = PackedStringArray("narrow", "edwardian")

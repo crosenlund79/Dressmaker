@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="GarmentDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/garment_definition.gd" id="1_de7k4"]
+
+[resource]
+script = ExtResource("1_de7k4")
+id = "sleeve_bell"
+display_name = "Bell Sleeve"
+category = "sleeve"
+outline = PackedVector2Array(-1.1, 0.02, -0.4, -0.08, 0.5, -0.08, 1.15, 0, 1.25, 0.45, 2.4, 0.9, 3.4, 1.08, 1, 1.1, -1.6, 1.02, -1.2, 0.55)
+detail_lines = Array[PackedVector2Array]([PackedVector2Array(-1.55, 0.98, 1, 1.05, 3.3, 1.04)])
+detail_dots = PackedVector2Array()
+default_fabric = "satin"
+default_color = Color(0.207843, 0.360784, 0.490196, 1)
+default_secondary = Color(0.721569, 0.815686, 0.901961, 1)
+default_trim = Color(0.941176, 0.901961, 0.823529, 1)
+tags = PackedStringArray("victorian", "flared")

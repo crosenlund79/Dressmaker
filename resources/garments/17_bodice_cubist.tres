@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="GarmentDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/garment_definition.gd" id="1_6lrns"]
+
+[resource]
+script = ExtResource("1_6lrns")
+id = "bodice_cubist"
+display_name = "Cubist Angular Top"
+category = "bodice"
+outline = PackedVector2Array(0, -0.06, 0.3, -0.16, 0.75, -0.12, 1.35, 0.04, 1.05, 0.28, 1.28, 0.52, 1, 0.72, 1.15, 1, 0.45, 0.94, 0, 1.06, -0.45, 0.94, -1.15, 1, -1, 0.72, -1.28, 0.52, -1.05, 0.28, -1.35, 0.04, -0.75, -0.12, -0.3, -0.16)
+detail_lines = Array[PackedVector2Array]([PackedVector2Array(0.3, -0.16, 0.4, 0.4), PackedVector2Array(-0.3, -0.16, -0.4, 0.4), PackedVector2Array(0.4, 0.4, 1.05, 0.28), PackedVector2Array(-0.4, 0.4, -1.05, 0.28), PackedVector2Array(0.4, 0.4, 0, 0.6), PackedVector2Array(-0.4, 0.4, 0, 0.6), PackedVector2Array(0.4, 0.4, 1, 0.72), PackedVector2Array(-0.4, 0.4, -1, 0.72), PackedVector2Array(1, 0.72, 0.45, 0.94), PackedVector2Array(-1, 0.72, -0.45, 0.94)])
+detail_dots = PackedVector2Array()
+default_fabric = "geometric"
+default_color = Color(0.913725, 0.768627, 0.415686, 1)
+default_secondary = Color(0.14902, 0.27451, 0.32549, 1)
+default_trim = Color(0.14902, 0.27451, 0.32549, 1)
+tags = PackedStringArray("experimental", "geometric")

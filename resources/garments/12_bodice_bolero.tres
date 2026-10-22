@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="GarmentDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/garment_definition.gd" id="1_3m2k6"]
+
+[resource]
+script = ExtResource("1_3m2k6")
+id = "bodice_bolero"
+display_name = "Cropped Bolero Jacket"
+category = "bodice"
+outline = PackedVector2Array(0, -0.1, 0.28, -0.12, 0.62, -0.05, 1.04, 0, 1.05, 0.1, 1, 0.24, 1.02, 0.5, 0.9, 0.62, 0.55, 0.6, 0.3, 0.42, 0.16, 0.12, 0.08, 0, 0, -0.04, -0.08, 0, -0.16, 0.12, -0.3, 0.42, -0.55, 0.6, -0.9, 0.62, -1.02, 0.5, -1, 0.24, -1.05, 0.1, -1.04, 0, -0.62, -0.05, -0.28, -0.12)
+detail_lines = Array[PackedVector2Array]([PackedVector2Array(0.08, 0, 0.16, 0.12, 0.3, 0.42, 0.55, 0.6, 0.9, 0.62), PackedVector2Array(-0.08, 0, -0.16, 0.12, -0.3, 0.42, -0.55, 0.6, -0.9, 0.62)])
+detail_dots = PackedVector2Array(0.2, 0.2, -0.2, 0.2, 0.27, 0.35, -0.27, 0.35, 0.4, 0.5, -0.4, 0.5, 0.6, 0.58, -0.6, 0.58, 0.8, 0.6, -0.8, 0.6)
+default_fabric = "brocade"
+default_color = Color(0.101961, 0.101961, 0.101961, 1)
+default_secondary = Color(0.690196, 0.552941, 0.341176, 1)
+default_trim = Color(0.85098, 0.698039, 0.360784, 1)
+tags = PackedStringArray("jacket", "open")

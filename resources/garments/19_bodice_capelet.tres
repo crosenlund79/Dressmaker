@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="GarmentDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/garment_definition.gd" id="1_0htbp"]
+
+[resource]
+script = ExtResource("1_0htbp")
+id = "bodice_capelet"
+display_name = "Shoulder Capelet Bodice"
+category = "bodice"
+outline = PackedVector2Array(0, -0.14, 0.28, -0.13, 0.7, -0.03, 1.32, 0.2, 1.45, 0.48, 1.15, 0.5, 1.02, 0.56, 1.04, 1, 0, 1, -1.04, 1, -1.02, 0.56, -1.15, 0.5, -1.45, 0.48, -1.32, 0.2, -0.7, -0.03, -0.28, -0.13)
+detail_lines = Array[PackedVector2Array]([PackedVector2Array(1.45, 0.48, 0.8, 0.53, 0.2, 0.5, 0, 0.5), PackedVector2Array(-1.45, 0.48, -0.8, 0.53, -0.2, 0.5, 0, 0.5), PackedVector2Array(1.4, 0.5, 1.42, 0.6), PackedVector2Array(-1.4, 0.5, -1.42, 0.6), PackedVector2Array(1.25, 0.51, 1.26, 0.61), PackedVector2Array(-1.25, 0.51, -1.26, 0.61), PackedVector2Array(1.1, 0.52, 1.1, 0.62), PackedVector2Array(-1.1, 0.52, -1.1, 0.62)])
+detail_dots = PackedVector2Array(0.12, -0.08, -0.12, -0.08)
+default_fabric = "velvet"
+default_color = Color(0.356863, 0.227451, 0.160784, 1)
+default_secondary = Color(0.792157, 0.643137, 0.447059, 1)
+default_trim = Color(0.890196, 0.772549, 0.541176, 1)
+tags = PackedStringArray("outerwear", "dramatic")

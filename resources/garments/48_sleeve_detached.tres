@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="GarmentDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/garment_definition.gd" id="1_pc7lt"]
+
+[resource]
+script = ExtResource("1_pc7lt")
+id = "sleeve_detached"
+display_name = "Detached Opera Sleeve"
+category = "sleeve"
+outline = PackedVector2Array(-1.05, 0.38, 0, 0.33, 1.12, 0.36, 1.1, 1, 0, 1.06, -1.1, 1)
+detail_lines = Array[PackedVector2Array]([PackedVector2Array(-1.05, 0.44, 0, 0.4, 1.12, 0.42)])
+detail_dots = PackedVector2Array(0.75, 0.5, 0.75, 0.6125, 0.75, 0.725, 0.75, 0.8375, 0.75, 0.95)
+default_fabric = "satin"
+default_color = Color(0.101961, 0.101961, 0.101961, 1)
+default_secondary = Color(0.266667, 0.266667, 0.266667, 1)
+default_trim = Color(0.85098, 0.85098, 0.85098, 1)
+tags = PackedStringArray("detached", "evening")

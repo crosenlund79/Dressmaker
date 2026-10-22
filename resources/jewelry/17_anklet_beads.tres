@@ -1,0 +1,60 @@
+[gd_resource type="Resource" script_class="JewelryDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/jewelry_definition.gd" id="1_lnt1k"]
+
+[resource]
+script = ExtResource("1_lnt1k")
+id = "anklet_beads"
+display_name = "Bead String"
+category = "anklet"
+shapes = Array[Dictionary]([{
+"k": "circle",
+"p": PackedVector2Array(11, -2),
+"r": 1,
+"rad": 1.7,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(8.59516, 0.1838),
+"r": 1,
+"rad": 1.7,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(5.31157, 1.04566),
+"r": 1,
+"rad": 1.7,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(1.93693, 1.43056),
+"r": 1,
+"rad": 1.7,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(-1.46089, 1.44763),
+"r": 1,
+"rad": 1.7,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(-4.84447, 1.13905),
+"r": 1,
+"rad": 1.7,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(-8.14124, 0.328229),
+"r": 1,
+"rad": 1.7,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(-10.841, -1.55098),
+"r": 1,
+"rad": 1.7,
+"shade": 1.0
+}])
+default_metal = Color(0.831373, 0.686275, 0.215686, 1)
+default_gem = Color(0.905882, 0.435294, 0.317647, 1)

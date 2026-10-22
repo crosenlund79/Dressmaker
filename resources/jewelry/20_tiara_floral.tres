@@ -1,0 +1,198 @@
+[gd_resource type="Resource" script_class="JewelryDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/jewelry_definition.gd" id="1_l77me"]
+
+[resource]
+script = ExtResource("1_l77me")
+id = "tiara_floral"
+display_name = "Floral Tiara"
+category = "tiara"
+shapes = Array[Dictionary]([{
+"k": "line",
+"p": PackedVector2Array(-26.3114, 7.89576, -23.8313, 5.70028, -20.3665, 3.7651, -16.0601, 2.17018, -11.0902, 0.981407, -5.66209, 0.247912, -5.14352e-15, 0, 5.66209, 0.247912, 11.0902, 0.981407, 16.0601, 2.17018, 20.3665, 3.7651, 23.8313, 5.70028, 26.3114, 7.89576),
+"r": 0,
+"shade": 1.0,
+"w": 2.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(-20.3363, 3.11708),
+"r": 1,
+"rad": 2.1,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(-22.1328, 5.58983),
+"r": 1,
+"rad": 2.1,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(-25.0397, 4.64532),
+"r": 1,
+"rad": 2.1,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(-25.0397, 1.58884),
+"r": 1,
+"rad": 2.1,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(-22.1328, 0.644336),
+"r": 1,
+"rad": 2.1,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(-22.9363, 3.11708),
+"r": 0,
+"rad": 1.6,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(-10.329, -0.64413),
+"r": 1,
+"rad": 2.1,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(-12.1255, 1.82862),
+"r": 1,
+"rad": 2.1,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(-15.0324, 0.884112),
+"r": 1,
+"rad": 2.1,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(-15.0324, -2.17237),
+"r": 1,
+"rad": 2.1,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(-12.1255, -3.11688),
+"r": 1,
+"rad": 2.1,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(-12.929, -0.64413),
+"r": 0,
+"rad": 1.6,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(2.6, -2),
+"r": 1,
+"rad": 2.1,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(0.803444, 0.472747),
+"r": 1,
+"rad": 2.1,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(-2.10344, -0.471758),
+"r": 1,
+"rad": 2.1,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(-2.10344, -3.52824),
+"r": 1,
+"rad": 2.1,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(0.803444, -4.47275),
+"r": 1,
+"rad": 2.1,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(-5.14352e-15, -2),
+"r": 0,
+"rad": 1.6,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(15.529, -0.64413),
+"r": 1,
+"rad": 2.1,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(13.7324, 1.82862),
+"r": 1,
+"rad": 2.1,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(10.8255, 0.884112),
+"r": 1,
+"rad": 2.1,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(10.8255, -2.17237),
+"r": 1,
+"rad": 2.1,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(13.7324, -3.11688),
+"r": 1,
+"rad": 2.1,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(12.929, -0.64413),
+"r": 0,
+"rad": 1.6,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(25.5363, 3.11708),
+"r": 1,
+"rad": 2.1,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(23.7397, 5.58983),
+"r": 1,
+"rad": 2.1,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(20.8328, 4.64532),
+"r": 1,
+"rad": 2.1,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(20.8328, 1.58884),
+"r": 1,
+"rad": 2.1,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(23.7397, 0.644336),
+"r": 1,
+"rad": 2.1,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(22.9363, 3.11708),
+"r": 0,
+"rad": 1.6,
+"shade": 1.0
+}])
+default_metal = Color(0.831373, 0.686275, 0.215686, 1)
+default_gem = Color(1, 0.686275, 0.8, 1)

@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ShoeDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/shoe_definition.gd" id="1_t4dp8"]
+
+[resource]
+script = ExtResource("1_t4dp8")
+id = "shoe_mary_jane"
+display_name = "Mary Jane"
+region_names = PackedStringArray("Upper", "Heel", "Sole", "Strap", "Button")
+region_defaults = PackedColorArray(0.54902, 0.109804, 0.0745098, 1, 0.101961, 0.101961, 0.101961, 1, 0.101961, 0.101961, 0.101961, 1, 0.54902, 0.109804, 0.0745098, 1, 0.94902, 0.901961, 0.811765, 1)
+shapes = Array[Dictionary]([{
+"k": "poly",
+"p": PackedVector2Array(-12, -9, -13, -19, -2, -18, 7, -18.7, 17, -13.9, 27, -11, 31, -10, 35, -6, 34, -3, 16, -3, 2, -6.72),
+"r": 0,
+"shade": 1.0
+}, {
+"k": "poly",
+"p": PackedVector2Array(-12.5, -6, -2.5, -6, -3.5, 0, -11.5, 0),
+"r": 1,
+"shade": 1.0
+}, {
+"k": "poly",
+"p": PackedVector2Array(2, -6.72, 16, -3, 34.5, -3, 33.5, 0, 8, 0, 2, -6),
+"r": 2,
+"shade": 1.0
+}, {
+"k": "line",
+"p": PackedVector2Array(-6, -18, 6, -16, 12, -4),
+"r": 3,
+"shade": 1.0,
+"w": 3.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(6, -16),
+"r": 4,
+"rad": 2.0,
+"shade": 1.0
+}])
+heel_lift = 6.0

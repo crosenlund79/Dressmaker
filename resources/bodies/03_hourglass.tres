@@ -1,0 +1,32 @@
+[gd_resource type="Resource" script_class="BodyDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/body_definition.gd" id="1_moelr"]
+
+[resource]
+script = ExtResource("1_moelr")
+id = "hourglass"
+display_name = "Hourglass"
+description = "Full bust and hips with a defined waist."
+head_radius = 36.0
+head_center_y = -560.0
+neck_hw = 15.0
+shoulder_y = -490.0
+shoulder_hw = 72.0
+chest_hw = 60.0
+bust_hw = 72.0
+waist_y = -370.0
+waist_hw = 37.0
+hip_y = -305.0
+hip_hw = 77.0
+knee_y = -165.0
+leg_hw_top = 30.0
+leg_hw_knee = 15.0
+leg_hw_ankle = 9.0
+ankle_y = -26.0
+ankle_x = 25.0
+foot_scale = 1.0
+arm_length = 225.0
+arm_hw_top = 13.0
+arm_hw_wrist = 7.5
+arm_angle_deg = 16.0
+skin_color = Color(0.98, 0.86, 0.78, 1)

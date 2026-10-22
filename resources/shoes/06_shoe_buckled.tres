@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="ShoeDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/shoe_definition.gd" id="1_3gjla"]
+
+[resource]
+script = ExtResource("1_3gjla")
+id = "shoe_buckled"
+display_name = "Buckled Shoe"
+region_names = PackedStringArray("Upper", "Heel", "Sole", "Buckle")
+region_defaults = PackedColorArray(0.109804, 0.109804, 0.109804, 1, 0.227451, 0.164706, 0.117647, 1, 0.227451, 0.164706, 0.117647, 1, 0.847059, 0.847059, 0.847059, 1)
+shapes = Array[Dictionary]([{
+"k": "poly",
+"p": PackedVector2Array(-12, -11, -13, -25, -2, -24, 7, -19.6, 17, -14.2, 27, -11, 34, -11, 35, -4, 16, -3, 2, -7.96),
+"r": 0,
+"shade": 1.0
+}, {
+"k": "poly",
+"p": PackedVector2Array(-12.5, -8, -2.5, -8, -3.5, 0, -11.5, 0),
+"r": 1,
+"shade": 1.0
+}, {
+"k": "poly",
+"p": PackedVector2Array(2, -7.96, 16, -3, 34.5, -3, 33.5, 0, 8, 0, 2, -7),
+"r": 2,
+"shade": 1.0
+}, {
+"k": "line",
+"p": PackedVector2Array(5, -20.2, 13, -20.2, 13, -12.2, 5, -12.2, 5, -20.2),
+"r": 3,
+"shade": 1.0,
+"w": 2.0
+}, {
+"k": "line",
+"p": PackedVector2Array(9, -20.2, 9, -12.2),
+"r": 3,
+"shade": 1.0,
+"w": 1.2
+}])
+heel_lift = 8.0

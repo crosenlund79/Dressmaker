@@ -1,0 +1,60 @@
+[gd_resource type="Resource" script_class="JewelryDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/jewelry_definition.gd" id="1_og0rd"]
+
+[resource]
+script = ExtResource("1_og0rd")
+id = "bracelet_tennis"
+display_name = "Gem Tennis Bracelet"
+category = "bracelet"
+shapes = Array[Dictionary]([{
+"k": "line",
+"p": PackedVector2Array(9.5, 0, 9.1763, 0.776457, 8.22724, 1.5, 6.71751, 2.12132, 4.75, 2.59808, 2.45878, 2.89778, 5.81707e-16, 3, -2.45878, 2.89778, -4.75, 2.59808, -6.71751, 2.12132, -8.22724, 1.5, -9.1763, 0.776457, -9.5, 3.67394e-16),
+"r": 0,
+"shade": 1.0,
+"w": 1.6
+}, {
+"k": "circle",
+"p": PackedVector2Array(9.5, 0),
+"r": 1,
+"rad": 1.6,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(6.96462, 2.01962),
+"r": 1,
+"rad": 1.6,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(3.65103, 2.74183),
+"r": 1,
+"rad": 1.6,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(0.263084, 2.98906),
+"r": 1,
+"rad": 1.6,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(-3.12886, 2.81013),
+"r": 1,
+"rad": 1.6,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(-6.4654, 2.18241),
+"r": 1,
+"rad": 1.6,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(-9.29736, 0.486073),
+"r": 1,
+"rad": 1.6,
+"shade": 1.0
+}])
+default_metal = Color(0.811765, 0.827451, 0.839216, 1)
+default_gem = Color(0.556863, 0.792157, 0.901961, 1)

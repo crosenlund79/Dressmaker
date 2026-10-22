@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="JewelryDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/jewelry_definition.gd" id="1_5j8dj"]
+
+[resource]
+script = ExtResource("1_5j8dj")
+id = "necklace_cameo_choker"
+display_name = "Cameo Choker"
+category = "necklace"
+shapes = Array[Dictionary]([{
+"k": "line",
+"p": PackedVector2Array(-15, -9, 0, -6, 15, -9),
+"r": 1,
+"shade": 0.8,
+"w": 5.0
+}, {
+"k": "poly",
+"p": PackedVector2Array(6.5, -2, 6.00522, 1.06147, 4.59619, 3.65685, 2.48744, 5.39104, 3.9801e-16, 6, -2.48744, 5.39104, -4.59619, 3.65685, -6.00522, 1.06147, -6.5, -2, -6.00522, -5.06147, -4.59619, -7.65685, -2.48744, -9.39104, -1.19403e-15, -10, 2.48744, -9.39104, 4.59619, -7.65685, 6.00522, -5.06147, 6.5, -2),
+"r": 0,
+"shade": 1.0
+}, {
+"k": "poly",
+"p": PackedVector2Array(4.5, -2, 4.15746, 0.296101, 3.18198, 2.24264, 1.72208, 3.54328, 2.75546e-16, 4, -1.72208, 3.54328, -3.18198, 2.24264, -4.15746, 0.296101, -4.5, -2, -4.15746, -4.2961, -3.18198, -6.24264, -1.72208, -7.54328, -8.26637e-16, -8, 1.72208, -7.54328, 3.18198, -6.24264, 4.15746, -4.2961, 4.5, -2),
+"r": 1,
+"shade": 1.15
+}])
+default_metal = Color(0.831373, 0.686275, 0.215686, 1)
+default_gem = Color(0.168627, 0.176471, 0.258824, 1)

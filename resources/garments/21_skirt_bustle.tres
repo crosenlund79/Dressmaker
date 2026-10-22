@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="GarmentDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/garment_definition.gd" id="1_kr7ny"]
+
+[resource]
+script = ExtResource("1_kr7ny")
+id = "skirt_bustle"
+display_name = "Bustle Skirt"
+category = "skirt"
+outline = PackedVector2Array(0, -0.03, 1, -0.03, 1.5, 0.12, 1.75, 0.25, 1.45, 0.35, 1.5, 0.6, 1.7, 0.9, 1.6, 0.98, 0, 0.99, -1.6, 0.98, -2.2, 1.04, -3, 1.07, -2.4, 0.8, -1.6, 0.55, -1.5, 0.35, -1.8, 0.22, -1.5, 0.1, -1, -0.03)
+detail_lines = Array[PackedVector2Array]([PackedVector2Array(-1.45, 0.12, -0.6, 0.38, 0.4, 0.42, 1.5, 0.15), PackedVector2Array(-1.5, 0.32, 0, 0.56, 1.45, 0.36), PackedVector2Array(-1.55, 0.6, -2.3, 0.95)])
+detail_dots = PackedVector2Array(1.55, 0.2, 1.62, 0.17, 1.62, 0.24)
+default_fabric = "stripes"
+default_color = Color(0.231373, 0.309804, 0.419608, 1)
+default_secondary = Color(0.780392, 0.815686, 0.858824, 1)
+default_trim = Color(0.890196, 0.772549, 0.541176, 1)
+tags = PackedStringArray("victorian", "asymmetric")

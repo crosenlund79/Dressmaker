@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="GarmentDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/garment_definition.gd" id="1_q4nlq"]
+
+[resource]
+script = ExtResource("1_q4nlq")
+id = "bodice_empire"
+display_name = "Empire Waist Bodice"
+category = "bodice"
+outline = PackedVector2Array(0, 0.18, 0.25, 0.08, 0.4, -0.04, 0.62, -0.05, 1.03, 0, 1.04, 0.1, 0.99, 0.24, 1, 0.42, 1.06, 0.7, 1.1, 1, 0, 1, -1.1, 1, -1.06, 0.7, -1, 0.42, -0.99, 0.24, -1.04, 0.1, -1.03, 0, -0.62, -0.05, -0.4, -0.04, -0.25, 0.08)
+detail_lines = Array[PackedVector2Array]([PackedVector2Array(-1, 0.43, 0, 0.45, 1, 0.43), PackedVector2Array(-1.01, 0.52, 0, 0.54, 1.01, 0.52), PackedVector2Array(0.2, 0.56, 0.25, 0.95), PackedVector2Array(-0.2, 0.56, -0.25, 0.95), PackedVector2Array(0.55, 0.56, 0.65, 0.95), PackedVector2Array(-0.55, 0.56, -0.65, 0.95)])
+detail_dots = PackedVector2Array(0, 0.48, -0.05, 0.47, 0.05, 0.47)
+default_fabric = "cotton"
+default_color = Color(0.811765, 0.878431, 0.94902, 1)
+default_secondary = Color(1, 1, 1, 1)
+default_trim = Color(0.415686, 0.54902, 0.686275, 1)
+tags = PackedStringArray("regency")

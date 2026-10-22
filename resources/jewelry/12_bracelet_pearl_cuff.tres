@@ -1,0 +1,84 @@
+[gd_resource type="Resource" script_class="JewelryDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/jewelry_definition.gd" id="1_lwiip"]
+
+[resource]
+script = ExtResource("1_lwiip")
+id = "bracelet_pearl_cuff"
+display_name = "Pearl Cuff"
+category = "bracelet"
+shapes = Array[Dictionary]([{
+"k": "circle",
+"p": PackedVector2Array(9, -3),
+"r": 1,
+"rad": 1.8,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(6.31387, -0.865868),
+"r": 1,
+"rad": 1.8,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(2.7885, -0.165615),
+"r": 1,
+"rad": 1.8,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(-0.804129, -0.0352885),
+"r": 1,
+"rad": 1.8,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(-4.38318, -0.385794),
+"r": 1,
+"rad": 1.8,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(-7.79305, -1.49949),
+"r": 1,
+"rad": 1.8,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(9, 1),
+"r": 1,
+"rad": 1.8,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(6.31387, 3.13413),
+"r": 1,
+"rad": 1.8,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(2.7885, 3.83439),
+"r": 1,
+"rad": 1.8,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(-0.804129, 3.96471),
+"r": 1,
+"rad": 1.8,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(-4.38318, 3.61421),
+"r": 1,
+"rad": 1.8,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(-7.79305, 2.50051),
+"r": 1,
+"rad": 1.8,
+"shade": 1.0
+}])
+default_metal = Color(0.831373, 0.686275, 0.215686, 1)
+default_gem = Color(0.956863, 0.937255, 0.901961, 1)

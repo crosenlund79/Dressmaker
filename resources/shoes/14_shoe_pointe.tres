@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="ShoeDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/shoe_definition.gd" id="1_3lao1"]
+
+[resource]
+script = ExtResource("1_3lao1")
+id = "shoe_pointe"
+display_name = "Ribbon Pointe Slipper"
+region_names = PackedStringArray("Upper", "Sole", "Ribbons")
+region_defaults = PackedColorArray(0.968627, 0.839216, 0.815686, 1, 0.721569, 0.545098, 0.517647, 1, 0.968627, 0.839216, 0.815686, 1)
+shapes = Array[Dictionary]([{
+"k": "poly",
+"p": PackedVector2Array(-12, -4, -13, -13, -4, -11, 8, -12.35, 14, -12.2, 17, -13.15, 27, -11, 34, -11, 35, -4, 16, -3, 2, -3.62),
+"r": 0,
+"shade": 1.0
+}, {
+"k": "poly",
+"p": PackedVector2Array(-12.5, -3, 34.5, -3, 33.5, 0, -12, 0),
+"r": 1,
+"shade": 1.0
+}, {
+"k": "line",
+"p": PackedVector2Array(-8, -21, 8, -30, -8, -39, 8, -48, -8, -57, 8, -66, -8, -75),
+"r": 2,
+"shade": 1.0,
+"w": 2.2
+}])
+heel_lift = 1.0

@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="GarmentDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/garment_definition.gd" id="1_rl040"]
+
+[resource]
+script = ExtResource("1_rl040")
+id = "sleeve_puff"
+display_name = "Short Puff Sleeve"
+category = "sleeve"
+outline = PackedVector2Array(-1.2, 0.05, -0.8, -0.15, 0.4, -0.2, 1.7, -0.04, 2.1, 0.15, 1.8, 0.3, 1.2, 0.38, -1.15, 0.34)
+detail_lines = Array[PackedVector2Array]([PackedVector2Array(-0.2, -0.12, 0, 0.33), PackedVector2Array(0.6, -0.15, 0.7, 0.34), PackedVector2Array(1.3, -0.08, 1.4, 0.3), PackedVector2Array(-1.15, 0.3, 1.3, 0.34)])
+detail_dots = PackedVector2Array()
+default_fabric = "silk"
+default_color = Color(0.905882, 0.717647, 0.768627, 1)
+default_secondary = Color(1, 0.956863, 0.941176, 1)
+default_trim = Color(1, 1, 1, 1)
+tags = PackedStringArray("romantic")

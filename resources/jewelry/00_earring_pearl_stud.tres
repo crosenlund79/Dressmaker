@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="JewelryDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/jewelry_definition.gd" id="1_rp7ar"]
+
+[resource]
+script = ExtResource("1_rp7ar")
+id = "earring_pearl_stud"
+display_name = "Pearl Studs"
+category = "earrings"
+shapes = Array[Dictionary]([{
+"k": "circle",
+"p": PackedVector2Array(0, 2),
+"r": 1,
+"rad": 3.2,
+"shade": 1.0
+}])
+default_metal = Color(0.831373, 0.686275, 0.215686, 1)
+default_gem = Color(0.956863, 0.937255, 0.901961, 1)

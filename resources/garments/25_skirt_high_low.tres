@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="GarmentDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/garment_definition.gd" id="1_kaoby"]
+
+[resource]
+script = ExtResource("1_kaoby")
+id = "skirt_high_low"
+display_name = "Asymmetric High-Low Skirt"
+category = "skirt"
+outline = PackedVector2Array(0, -0.03, 1, -0.03, 1.15, 0.18, 1.6, 0.4, 1.9, 0.52, 1.2, 0.56, 0.3, 0.68, -0.6, 0.85, -1.4, 0.98, -2, 0.96, -1.7, 0.6, -1.2, 0.25, -1, -0.03)
+detail_lines = Array[PackedVector2Array]([PackedVector2Array(-0.2, 0.05, -1.2, 0.85), PackedVector2Array(0.4, 0.06, -0.2, 0.7)])
+detail_dots = PackedVector2Array()
+default_fabric = "silk"
+default_color = Color(0.164706, 0.615686, 0.560784, 1)
+default_secondary = Color(0.913725, 0.960784, 0.94902, 1)
+default_trim = Color(0.913725, 0.768627, 0.415686, 1)
+tags = PackedStringArray("asymmetric", "modern")

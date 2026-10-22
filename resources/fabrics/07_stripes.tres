@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="FabricDefinition" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/fabric_definition.gd" id="1_knnli"]
+[ext_resource type="Texture2D" path="res://assets/fabrics/stripes.png" id="2_0vm1j"]
+
+[resource]
+script = ExtResource("1_knnli")
+id = "stripes"
+display_name = "Regency Stripes"
+texture = ExtResource("2_0vm1j")
+tile_size = 110.0
+default_color = Color(0.94902, 0.909804, 0.835294, 1)
+default_secondary = Color(0.415686, 0.54902, 0.686275, 1)

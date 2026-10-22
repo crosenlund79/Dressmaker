@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="JewelryDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/jewelry_definition.gd" id="1_gosae"]
+
+[resource]
+script = ExtResource("1_gosae")
+id = "anklet_gems"
+display_name = "Gem Anklet"
+category = "anklet"
+shapes = Array[Dictionary]([{
+"k": "line",
+"p": PackedVector2Array(11, -2, 10.7242, -1.22118, 9.91066, -0.481407, 8.60015, 0.182214, 6.85839, 0.73641, 4.77272, 1.15339, 2.44773, 1.41225, 6.73556e-16, 1.5, -2.44773, 1.41225, -4.77272, 1.15339, -6.85839, 0.73641, -8.60015, 0.182214, -9.91066, -0.481407, -10.7242, -1.22118, -11, -2),
+"r": 0,
+"shade": 1.0,
+"w": 1.4
+}, {
+"k": "poly",
+"p": PackedVector2Array(0, 0, 3, 3.5, 0, 7, -3, 3.5),
+"r": 1,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(-6, 2.6),
+"r": 1,
+"rad": 1.5,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(6, 2.6),
+"r": 1,
+"rad": 1.5,
+"shade": 1.0
+}])
+default_metal = Color(0.831373, 0.686275, 0.215686, 1)
+default_gem = Color(0.607843, 0.364706, 0.898039, 1)

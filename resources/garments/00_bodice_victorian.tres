@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="GarmentDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/garment_definition.gd" id="1_r351g"]
+
+[resource]
+script = ExtResource("1_r351g")
+id = "bodice_victorian"
+display_name = "Fitted Victorian Bodice"
+category = "bodice"
+outline = PackedVector2Array(0, 0.07, 0.12, 0.05, 0.24, -0.06, 0.6, -0.04, 1.03, 0, 1.04, 0.1, 0.99, 0.24, 1.02, 0.45, 1.03, 0.75, 1.04, 1, 0.7, 1.03, 0.3, 1.1, 0, 1.16, -0.3, 1.1, -0.7, 1.03, -1.04, 1, -1.03, 0.75, -1.02, 0.45, -0.99, 0.24, -1.04, 0.1, -1.03, 0, -0.6, -0.04, -0.24, -0.06, -0.12, 0.05)
+detail_lines = Array[PackedVector2Array]([PackedVector2Array(0.55, -0.03, 0.45, 0.4, 0.4, 0.8, 0.42, 1.06), PackedVector2Array(-0.55, -0.03, -0.45, 0.4, -0.4, 0.8, -0.42, 1.06), PackedVector2Array(-0.24, -0.06, -0.12, 0.05, 0, 0.07, 0.12, 0.05, 0.24, -0.06)])
+detail_dots = PackedVector2Array(0, 0.16, 0, 0.285714, 0, 0.411429, 0, 0.537143, 0, 0.662857, 0, 0.788571, 0, 0.914286, 0, 1.04)
+default_fabric = "velvet"
+default_color = Color(0.482353, 0.176471, 0.227451, 1)
+default_secondary = Color(0.909804, 0.85098, 0.752941, 1)
+default_trim = Color(0.85098, 0.698039, 0.360784, 1)
+tags = PackedStringArray("victorian")

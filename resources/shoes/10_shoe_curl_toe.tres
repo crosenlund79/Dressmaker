@@ -1,0 +1,34 @@
+[gd_resource type="Resource" script_class="ShoeDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/shoe_definition.gd" id="1_8pdk3"]
+
+[resource]
+script = ExtResource("1_8pdk3")
+id = "shoe_curl_toe"
+display_name = "Fairy Curl-Toe Slipper"
+region_names = PackedStringArray("Upper", "Sole", "Pompom")
+region_defaults = PackedColorArray(0.415686, 0.298039, 0.576471, 1, 0.0980392, 0.509804, 0.768627, 1, 1, 0.792157, 0.227451, 1)
+shapes = Array[Dictionary]([{
+"k": "poly",
+"p": PackedVector2Array(-12, -5, -13, -14, -4, -12, 8, -12.7, 14, -12.4, 17, -13.3, 27, -11, 32, -9, 39, -12, 43, -19, 39, -23, 44, -24, 47, -17, 41, -5, 16, -3, 2, -4.24),
+"r": 0,
+"shade": 1.0
+}, {
+"k": "poly",
+"p": PackedVector2Array(-12.5, -3, 34.5, -3, 33.5, 0, -12, 0),
+"r": 1,
+"shade": 1.0
+}, {
+"k": "line",
+"p": PackedVector2Array(34, -3, 41, -5, 47, -17),
+"r": 1,
+"shade": 1.0,
+"w": 2.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(44, -25),
+"r": 2,
+"rad": 4.5,
+"shade": 1.0
+}])
+heel_lift = 2.0

@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="GarmentDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/garment_definition.gd" id="1_gki11"]
+
+[resource]
+script = ExtResource("1_gki11")
+id = "skirt_high_slit"
+display_name = "High-Slit Skirt"
+category = "skirt"
+outline = PackedVector2Array(0, -0.03, 1, -0.03, 1.1, 0.19, 1.25, 0.5, 1.45, 0.96, 0.55, 0.98, 0.42, 0.42, 0.3, 0.98, -1.45, 0.96, -1.25, 0.5, -1.1, 0.19, -1, -0.03)
+detail_lines = Array[PackedVector2Array]([PackedVector2Array(0.42, 0.42, 0.42, 0.36)])
+detail_dots = PackedVector2Array()
+default_fabric = "satin"
+default_color = Color(0.615686, 0.00784314, 0.0313726, 1)
+default_secondary = Color(0.956863, 0.54902, 0.0235294, 1)
+default_trim = Color(0.980392, 0.639216, 0.027451, 1)
+tags = PackedStringArray("modern", "daring")

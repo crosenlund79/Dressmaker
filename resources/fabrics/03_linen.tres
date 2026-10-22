@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="FabricDefinition" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/fabric_definition.gd" id="1_nblrc"]
+[ext_resource type="Texture2D" path="res://assets/fabrics/linen.png" id="2_t3vi1"]
+
+[resource]
+script = ExtResource("1_nblrc")
+id = "linen"
+display_name = "Linen"
+texture = ExtResource("2_t3vi1")
+tile_size = 90.0
+default_color = Color(0.847059, 0.784314, 0.658824, 1)
+default_secondary = Color(1, 1, 1, 1)

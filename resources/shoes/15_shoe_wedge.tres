@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="ShoeDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/shoe_definition.gd" id="1_3dxeq"]
+
+[resource]
+script = ExtResource("1_3dxeq")
+id = "shoe_wedge"
+display_name = "Rope Wedge"
+region_names = PackedStringArray("Upper", "Heel", "Sole", "Ankle Ties")
+region_defaults = PackedColorArray(0.913725, 0.847059, 0.65098, 1, 0.784314, 0.631373, 0.396078, 1, 0.419608, 0.309804, 0.164706, 1, 0.113725, 0.207843, 0.341176, 1)
+shapes = Array[Dictionary]([{
+"k": "poly",
+"p": PackedVector2Array(-12, -25, -13, -35, -2, -34, 7, -25.9, 17, -16.3, 27, -11, 31, -10, 35, -6, 34, -3, 16, -3, 2, -16.64),
+"r": 0,
+"shade": 1.0
+}, {
+"k": "poly",
+"p": PackedVector2Array(-12.5, -22, 4, -12.1, 15, -0.5, 15, 0, -12, 0),
+"r": 1,
+"shade": 1.0
+}, {
+"k": "line",
+"p": PackedVector2Array(-11.5, -4.4, -6.4, -3.52),
+"r": 1,
+"shade": 0.75,
+"w": 1.0
+}, {
+"k": "line",
+"p": PackedVector2Array(-11.5, -8.8, -1.8, -7.04),
+"r": 1,
+"shade": 0.75,
+"w": 1.0
+}, {
+"k": "line",
+"p": PackedVector2Array(-11.5, -13.2, 2.8, -10.56),
+"r": 1,
+"shade": 0.75,
+"w": 1.0
+}, {
+"k": "line",
+"p": PackedVector2Array(-11.5, -17.6, 7.4, -14.08),
+"r": 1,
+"shade": 0.75,
+"w": 1.0
+}, {
+"k": "poly",
+"p": PackedVector2Array(2, -16.64, 16, -3, 34.5, -3, 33.5, 0, 8, 0, 2, -14),
+"r": 2,
+"shade": 1.0
+}, {
+"k": "line",
+"p": PackedVector2Array(-10, -44, 9, -46),
+"r": 3,
+"shade": 1.0,
+"w": 2.2
+}, {
+"k": "line",
+"p": PackedVector2Array(9, -46, 15, -38, 12, -34),
+"r": 3,
+"shade": 1.0,
+"w": 1.6
+}])
+heel_lift = 22.0

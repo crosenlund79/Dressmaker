@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="JewelryDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/jewelry_definition.gd" id="1_x2o4s"]
+
+[resource]
+script = ExtResource("1_x2o4s")
+id = "bracelet_bangle"
+display_name = "Gold Bangle"
+category = "bracelet"
+shapes = Array[Dictionary]([{
+"k": "line",
+"p": PackedVector2Array(9.5, -2, 9.1763, -1.17178, 8.22724, -0.4, 6.71751, 0.262742, 4.75, 0.771281, 2.45878, 1.09096, 5.81707e-16, 1.2, -2.45878, 1.09096, -4.75, 0.771281, -6.71751, 0.262742, -8.22724, -0.4, -9.1763, -1.17178, -9.5, -2),
+"r": 0,
+"shade": 1.0,
+"w": 2.6
+}, {
+"k": "line",
+"p": PackedVector2Array(9.5, 1, 9.1763, 1.82822, 8.22724, 2.6, 6.71751, 3.26274, 4.75, 3.77128, 2.45878, 4.09096, 5.81707e-16, 4.2, -2.45878, 4.09096, -4.75, 3.77128, -6.71751, 3.26274, -8.22724, 2.6, -9.1763, 1.82822, -9.5, 1),
+"r": 0,
+"shade": 1.0,
+"w": 2.0
+}])
+default_metal = Color(0.831373, 0.686275, 0.215686, 1)
+default_gem = Color(0.956863, 0.937255, 0.901961, 1)

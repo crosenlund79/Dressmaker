@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="GarmentDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/garment_definition.gd" id="1_2dsr6"]
+
+[resource]
+script = ExtResource("1_2dsr6")
+id = "sleeve_asym_drape"
+display_name = "Asymmetric Drape Sleeve"
+category = "sleeve"
+outline = PackedVector2Array(-1.1, 0.02, -0.4, -0.08, 0.5, -0.08, 1.2, 0, 1.8, 0.4, 2.8, 0.9, 2.6, 1.25, 1.6, 1.05, 1.1, 0.75, -0.4, 0.62, -1.15, 0.5)
+detail_lines = Array[PackedVector2Array]([PackedVector2Array(0.4, 0.1, 2.2, 1), PackedVector2Array(1, 0.1, 2.6, 0.95)])
+detail_dots = PackedVector2Array()
+default_fabric = "silk"
+default_color = Color(0.235294, 0.431373, 0.568627, 1)
+default_secondary = Color(0.811765, 0.890196, 0.937255, 1)
+default_trim = Color(0.901961, 0.901961, 0.901961, 1)
+tags = PackedStringArray("asymmetric")

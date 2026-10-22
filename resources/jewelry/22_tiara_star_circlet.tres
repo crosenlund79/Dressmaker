@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="JewelryDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/jewelry_definition.gd" id="1_ytv4c"]
+
+[resource]
+script = ExtResource("1_ytv4c")
+id = "tiara_star_circlet"
+display_name = "Star Circlet"
+category = "tiara"
+shapes = Array[Dictionary]([{
+"k": "line",
+"p": PackedVector2Array(-26.3114, 7.89576, -23.8313, 5.70028, -20.3665, 3.7651, -16.0601, 2.17018, -11.0902, 0.981407, -5.66209, 0.247912, -5.14352e-15, 0, 5.66209, 0.247912, 11.0902, 0.981407, 16.0601, 2.17018, 20.3665, 3.7651, 23.8313, 5.70028, 26.3114, 7.89576),
+"r": 0,
+"shade": 1.0,
+"w": 1.8
+}, {
+"k": "poly",
+"p": PackedVector2Array(4.89859e-16, -9, 2.05725, -3.83156, 7.60845, -3.47214, 3.3287, 0.0815595, 4.70228, 5.47214, 2.14313e-16, 2.5, -4.70228, 5.47214, -3.3287, 0.0815595, -7.60845, -3.47214, -2.05725, -3.83156),
+"r": 1,
+"shade": 1.0
+}, {
+"k": "line",
+"p": PackedVector2Array(4.89859e-16, -9, 2.05725, -3.83156, 7.60845, -3.47214, 3.3287, 0.0815595, 4.70228, 5.47214, 2.14313e-16, 2.5, -4.70228, 5.47214, -3.3287, 0.0815595, -7.60845, -3.47214, -2.05725, -3.83156, 4.89859e-16, -9),
+"r": 0,
+"shade": 1.0,
+"w": 0.8
+}])
+default_metal = Color(0.811765, 0.827451, 0.839216, 1)
+default_gem = Color(1, 0.839216, 0.0392157, 1)

@@ -1,0 +1,80 @@
+[gd_resource type="Resource" script_class="ShoeDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/shoe_definition.gd" id="1_exv8p"]
+
+[resource]
+script = ExtResource("1_exv8p")
+id = "shoe_button_boot"
+display_name = "Victorian Button Boot"
+region_names = PackedStringArray("Upper", "Heel", "Sole", "Toe Cap", "Buttons")
+region_defaults = PackedColorArray(0.231373, 0.164706, 0.12549, 1, 0.164706, 0.117647, 0.0862745, 1, 0.101961, 0.0784314, 0.0627451, 1, 0.419608, 0.290196, 0.2, 1, 0.85098, 0.788235, 0.639216, 1)
+shapes = Array[Dictionary]([{
+"k": "poly",
+"p": PackedVector2Array(-12, -13, -12.5, -78, -11, -82, 10, -82, 10.5, -78, 9.5, -22.5, 17, -14.5, 27, -11, 31, -10, 35, -6, 34, -3, 16, -3, 2, -9.2),
+"r": 0,
+"shade": 1.0
+}, {
+"k": "poly",
+"p": PackedVector2Array(-12.5, -10, -2, -10, -6, -4.5, -5.5, 0, -10, 0, -11, -5),
+"r": 1,
+"shade": 1.0
+}, {
+"k": "poly",
+"p": PackedVector2Array(2, -9.2, 16, -3, 34.5, -3, 33.5, 0, 8, 0, 2, -8),
+"r": 2,
+"shade": 1.0
+}, {
+"k": "poly",
+"p": PackedVector2Array(22, -12, 27, -11, 31, -10, 35, -6, 34, -3, 21, -3),
+"r": 3,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(3, -76),
+"r": 4,
+"rad": 1.6,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(3.6, -69),
+"r": 4,
+"rad": 1.6,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(4.2, -62),
+"r": 4,
+"rad": 1.6,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(4.8, -55),
+"r": 4,
+"rad": 1.6,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(5.4, -48),
+"r": 4,
+"rad": 1.6,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(6, -41),
+"r": 4,
+"rad": 1.6,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(6.6, -34),
+"r": 4,
+"rad": 1.6,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(7.2, -27),
+"r": 4,
+"rad": 1.6,
+"shade": 1.0
+}])
+heel_lift = 10.0

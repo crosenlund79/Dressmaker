@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="GarmentDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/garment_definition.gd" id="1_ui02y"]
+
+[resource]
+script = ExtResource("1_ui02y")
+id = "bodice_peplum"
+display_name = "Peplum Jacket"
+category = "bodice"
+outline = PackedVector2Array(0, 0.05, 0.24, -0.08, 0.6, -0.05, 1.03, 0, 1.04, 0.1, 0.99, 0.24, 1.02, 0.6, 1, 0.95, 1.35, 1.2, 1.28, 1.3, 0.8, 1.32, 0.3, 1.3, 0, 1.33, -0.3, 1.3, -0.8, 1.32, -1.28, 1.3, -1.35, 1.2, -1, 0.95, -1.02, 0.6, -0.99, 0.24, -1.04, 0.1, -1.03, 0, -0.6, -0.05, -0.24, -0.08)
+detail_lines = Array[PackedVector2Array]([PackedVector2Array(0.24, -0.08, 0.32, 0.2, 0.12, 0.35, 0, 0.5), PackedVector2Array(-0.24, -0.08, -0.32, 0.2, -0.12, 0.35, 0, 0.5), PackedVector2Array(-1, 0.97, 0, 0.99, 1, 0.97)])
+detail_dots = PackedVector2Array(0, 0.58, 0, 0.72, 0, 0.86)
+default_fabric = "check"
+default_color = Color(0.294118, 0.364706, 0.227451, 1)
+default_secondary = Color(0.788235, 0.72549, 0.560784, 1)
+default_trim = Color(0.227451, 0.164706, 0.101961, 1)
+tags = PackedStringArray("jacket", "structured")

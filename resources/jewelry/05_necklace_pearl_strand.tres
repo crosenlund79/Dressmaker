@@ -1,0 +1,120 @@
+[gd_resource type="Resource" script_class="JewelryDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/jewelry_definition.gd" id="1_g2mlw"]
+
+[resource]
+script = ExtResource("1_g2mlw")
+id = "necklace_pearl_strand"
+display_name = "Pearl Strand"
+category = "necklace"
+shapes = Array[Dictionary]([{
+"k": "circle",
+"p": PackedVector2Array(26, -4),
+"r": 1,
+"rad": 2.4,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(25.4897, 0.564921),
+"r": 1,
+"rad": 2.4,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(24.0686, 4.92793),
+"r": 1,
+"rad": 2.4,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(21.8167, 8.92275),
+"r": 1,
+"rad": 2.4,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(18.8466, 12.4151),
+"r": 1,
+"rad": 2.4,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(15.2884, 15.3055),
+"r": 1,
+"rad": 2.4,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(11.2776, 17.526),
+"r": 1,
+"rad": 2.4,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(6.94776, 19.0336),
+"r": 1,
+"rad": 2.4,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(2.42787, 19.8039),
+"r": 1,
+"rad": 2.4,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(-2.1572, 19.8258),
+"r": 1,
+"rad": 2.4,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(-6.68416, 19.0988),
+"r": 1,
+"rad": 2.4,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(-11.0282, 17.6334),
+"r": 1,
+"rad": 2.4,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(-15.0604, 15.4529),
+"r": 1,
+"rad": 2.4,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(-18.6471, 12.5993),
+"r": 1,
+"rad": 2.4,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(-21.6526, 9.1391),
+"r": 1,
+"rad": 2.4,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(-23.9461, 5.17031),
+"r": 1,
+"rad": 2.4,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(-25.414, 0.825705),
+"r": 1,
+"rad": 2.4,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(-25.9744, -3.72966),
+"r": 1,
+"rad": 2.4,
+"shade": 1.0
+}])
+default_metal = Color(0.831373, 0.686275, 0.215686, 1)
+default_gem = Color(0.956863, 0.937255, 0.901961, 1)

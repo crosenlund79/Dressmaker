@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="GarmentDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/garment_definition.gd" id="1_7wqpm"]
+
+[resource]
+script = ExtResource("1_7wqpm")
+id = "skirt_train"
+display_name = "Dramatic Train Skirt"
+category = "skirt"
+outline = PackedVector2Array(0, -0.03, 1, -0.03, 1.15, 0.2, 1.5, 0.5, 2, 0.78, 3.2, 0.98, 4.3, 1.06, 2.5, 1.08, 0, 1.06, -2.5, 1.08, -4.3, 1.06, -3.2, 0.98, -2, 0.78, -1.5, 0.5, -1.15, 0.2, -1, -0.03)
+detail_lines = Array[PackedVector2Array]([PackedVector2Array(0.6, 0.1, 1.6, 1), PackedVector2Array(-0.6, 0.1, -1.6, 1), PackedVector2Array(1.2, 0.35, 3, 1.03), PackedVector2Array(-1.2, 0.35, -3, 1.03), PackedVector2Array(0.2, 0.2, 0.6, 1.04), PackedVector2Array(-0.2, 0.2, -0.6, 1.04)])
+detail_dots = PackedVector2Array()
+default_fabric = "silk"
+default_color = Color(0.960784, 0.941176, 0.901961, 1)
+default_secondary = Color(0.878431, 0.831373, 0.741176, 1)
+default_trim = Color(0.796078, 0.701961, 0.498039, 1)
+tags = PackedStringArray("formal", "dramatic")

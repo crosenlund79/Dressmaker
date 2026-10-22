@@ -1,0 +1,40 @@
+[gd_resource type="Resource" script_class="JewelryDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/jewelry_definition.gd" id="1_r6s1b"]
+
+[resource]
+script = ExtResource("1_r6s1b")
+id = "tiara_feather"
+display_name = "Feather Fascinator"
+category = "tiara"
+shapes = Array[Dictionary]([{
+"k": "poly",
+"p": PackedVector2Array(14, 6, 20, -18, 26, -30, 24, -14, 20, 4),
+"r": 1,
+"shade": 1.0
+}, {
+"k": "poly",
+"p": PackedVector2Array(16, 6, 30, -10, 38, -14, 30, 0, 20, 8),
+"r": 1,
+"shade": 0.85
+}, {
+"k": "line",
+"p": PackedVector2Array(18, 5, 24, -24),
+"r": 0,
+"shade": 1.0,
+"w": 0.8
+}, {
+"k": "circle",
+"p": PackedVector2Array(17, 6),
+"r": 0,
+"rad": 4.0,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(17, 6),
+"r": 1,
+"rad": 2.0,
+"shade": 1.2
+}])
+default_metal = Color(0.831373, 0.686275, 0.215686, 1)
+default_gem = Color(0.14902, 0.27451, 0.32549, 1)

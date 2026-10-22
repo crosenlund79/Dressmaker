@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="FabricDefinition" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/fabric_definition.gd" id="1_1oyvs"]
+[ext_resource type="Texture2D" path="res://assets/fabrics/silk.png" id="2_hbmbd"]
+
+[resource]
+script = ExtResource("1_1oyvs")
+id = "silk"
+display_name = "Smooth Silk"
+texture = ExtResource("2_hbmbd")
+tile_size = 260.0
+default_color = Color(0.709804, 0.513726, 0.552941, 1)
+default_secondary = Color(1, 1, 1, 1)

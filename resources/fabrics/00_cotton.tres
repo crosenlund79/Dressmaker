@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="FabricDefinition" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/fabric_definition.gd" id="1_w122b"]
+[ext_resource type="Texture2D" path="res://assets/fabrics/cotton.png" id="2_jdwho"]
+
+[resource]
+script = ExtResource("1_w122b")
+id = "cotton"
+display_name = "Plain Cotton"
+texture = ExtResource("2_jdwho")
+tile_size = 80.0
+default_color = Color(0.768627, 0.301961, 0.345098, 1)
+default_secondary = Color(0.94902, 0.909804, 0.835294, 1)

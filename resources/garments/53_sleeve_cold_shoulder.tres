@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="GarmentDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/garment_definition.gd" id="1_yqu0y"]
+
+[resource]
+script = ExtResource("1_yqu0y")
+id = "sleeve_cold_shoulder"
+display_name = "Cold-Shoulder Flare"
+category = "sleeve"
+outline = PackedVector2Array(-1.1, 0.3, -0.3, 0.24, 1.2, 0.26, 1.2, 0.6, 1.8, 0.95, 2, 1.04, -0.6, 1.05, -1.15, 0.7)
+detail_lines = Array[PackedVector2Array]([PackedVector2Array(0, 0.25, 0, -0.06), PackedVector2Array(-1, 0.33, 1.2, 0.3)])
+detail_dots = PackedVector2Array()
+default_fabric = "polka"
+default_color = Color(0.113725, 0.207843, 0.341176, 1)
+default_secondary = Color(0.945098, 0.980392, 0.933333, 1)
+default_trim = Color(0.945098, 0.980392, 0.933333, 1)
+tags = PackedStringArray("modern")

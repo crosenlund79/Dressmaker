@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="FabricDefinition" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/fabric_definition.gd" id="1_s6rk7"]
+[ext_resource type="Texture2D" path="res://assets/fabrics/velvet.png" id="2_frjvs"]
+
+[resource]
+script = ExtResource("1_s6rk7")
+id = "velvet"
+display_name = "Crushed Velvet"
+texture = ExtResource("2_frjvs")
+tile_size = 150.0
+default_color = Color(0.482353, 0.176471, 0.227451, 1)
+default_secondary = Color(0, 0, 0, 1)

@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="JewelryDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/jewelry_definition.gd" id="1_2cpk5"]
+
+[resource]
+script = ExtResource("1_2cpk5")
+id = "earring_hoop"
+display_name = "Gold Hoops"
+category = "earrings"
+shapes = Array[Dictionary]([{
+"k": "line",
+"p": PackedVector2Array(3.9801e-16, 0.5, 2.00861, 0.867076, 3.8206, 1.93237, 5.25861, 3.59161, 6.18187, 5.68237, 6.5, 8, 6.18187, 10.3176, 5.25861, 12.4084, 3.8206, 14.0676, 2.00861, 15.1329, 3.9801e-16, 15.5, -2.00861, 15.1329, -3.8206, 14.0676, -5.25861, 12.4084, -6.18187, 10.3176, -6.5, 8, -6.18187, 5.68237, -5.25861, 3.59161, -3.8206, 1.93237, -2.00861, 0.867076, -1.19403e-15, 0.5),
+"r": 0,
+"shade": 1.0,
+"w": 1.8
+}])
+default_metal = Color(0.831373, 0.686275, 0.215686, 1)
+default_gem = Color(0.956863, 0.937255, 0.901961, 1)

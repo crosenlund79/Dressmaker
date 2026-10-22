@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="GarmentDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/garment_definition.gd" id="1_105hg"]
+
+[resource]
+script = ExtResource("1_105hg")
+id = "bodice_deep_v"
+display_name = "Deep V Wrap Bodice"
+category = "bodice"
+outline = PackedVector2Array(0, 0.55, 0.26, -0.08, 0.6, -0.05, 1.03, 0, 1.04, 0.1, 0.99, 0.24, 1.02, 0.6, 1.04, 1, 0, 1, -1.04, 1, -1.02, 0.6, -0.99, 0.24, -1.04, 0.1, -1.03, 0, -0.6, -0.05, -0.26, -0.08)
+detail_lines = Array[PackedVector2Array]([PackedVector2Array(0.26, -0.08, -0.15, 0.55, -0.7, 0.98), PackedVector2Array(-0.26, -0.08, 0, 0.55)])
+detail_dots = PackedVector2Array()
+default_fabric = "silk"
+default_color = Color(0.352941, 0.164706, 0.431373, 1)
+default_secondary = Color(0.823529, 0.705882, 0.870588, 1)
+default_trim = Color(0.890196, 0.772549, 0.541176, 1)
+tags = PackedStringArray("modern")

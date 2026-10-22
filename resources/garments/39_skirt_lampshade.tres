@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="GarmentDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/garment_definition.gd" id="1_fph6b"]
+
+[resource]
+script = ExtResource("1_fph6b")
+id = "skirt_lampshade"
+display_name = "Lampshade Tunic Skirt"
+category = "skirt"
+outline = PackedVector2Array(0, -0.03, 1, -0.03, 1.15, 0.18, 2, 0.38, 2, 0.43, 0.9, 0.45, 0.82, 0.97, 0, 0.98, -0.82, 0.97, -0.9, 0.45, -2, 0.43, -2, 0.38, -1.15, 0.18, -1, -0.03)
+detail_lines = Array[PackedVector2Array]([PackedVector2Array(-2, 0.4, 0, 0.42, 2, 0.4), PackedVector2Array(0, 0.45, 0, 0.97)])
+detail_dots = PackedVector2Array()
+default_fabric = "brocade"
+default_color = Color(0.239216, 0.25098, 0.356863, 1)
+default_secondary = Color(0.94902, 0.8, 0.560784, 1)
+default_trim = Color(0.94902, 0.8, 0.560784, 1)
+tags = PackedStringArray("experimental", "1910s")

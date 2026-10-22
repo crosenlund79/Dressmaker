@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="GarmentDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/garment_definition.gd" id="1_6mm3e"]
+
+[resource]
+script = ExtResource("1_6mm3e")
+id = "bodice_sweetheart"
+display_name = "Sweetheart Bodice"
+category = "bodice"
+outline = PackedVector2Array(0, 0.3, 0.08, 0.24, 0.2, 0.16, 0.33, 0.14, 0.48, 0.18, 0.62, 0.23, 0.98, 0.28, 0.98, 0.45, 1.02, 0.75, 1.04, 1, 0, 1.02, -1.04, 1, -1.02, 0.75, -0.98, 0.45, -0.98, 0.28, -0.62, 0.23, -0.48, 0.18, -0.33, 0.14, -0.2, 0.16, -0.08, 0.24)
+detail_lines = Array[PackedVector2Array]([PackedVector2Array(0, 0.3, 0, 1.02), PackedVector2Array(0.45, 0.2, 0.3, 0.7, 0.15, 1), PackedVector2Array(-0.45, 0.2, -0.3, 0.7, -0.15, 1)])
+detail_dots = PackedVector2Array()
+default_fabric = "satin"
+default_color = Color(0.721569, 0.231373, 0.368627, 1)
+default_secondary = Color(0.964706, 0.756863, 0.815686, 1)
+default_trim = Color(0.94902, 0.890196, 0.776471, 1)
+tags = PackedStringArray("strapless")

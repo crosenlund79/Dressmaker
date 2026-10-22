@@ -1,0 +1,32 @@
+[gd_resource type="Resource" script_class="BodyDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/body_definition.gd" id="1_3yke7"]
+
+[resource]
+script = ExtResource("1_3yke7")
+id = "pear"
+display_name = "Pear"
+description = "Narrow shoulders, generous hips and thighs."
+head_radius = 36.0
+head_center_y = -560.0
+neck_hw = 15.0
+shoulder_y = -490.0
+shoulder_hw = 61.0
+chest_hw = 50.0
+bust_hw = 55.0
+waist_y = -370.0
+waist_hw = 43.0
+hip_y = -298.0
+hip_hw = 84.0
+knee_y = -165.0
+leg_hw_top = 33.0
+leg_hw_knee = 17.0
+leg_hw_ankle = 9.0
+ankle_y = -26.0
+ankle_x = 27.0
+foot_scale = 1.0
+arm_length = 225.0
+arm_hw_top = 12.5
+arm_hw_wrist = 7.5
+arm_angle_deg = 16.0
+skin_color = Color(0.76, 0.56, 0.4, 1)

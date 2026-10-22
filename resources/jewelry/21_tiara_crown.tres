@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="JewelryDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/jewelry_definition.gd" id="1_re8pt"]
+
+[resource]
+script = ExtResource("1_re8pt")
+id = "tiara_crown"
+display_name = "Spiked Crown"
+category = "tiara"
+shapes = Array[Dictionary]([{
+"k": "poly",
+"p": PackedVector2Array(-24, 7.81906, -18, 11.8082, -12, 3.15791, -6, 9.27875, 0, -4, 6, 9.27875, 12, 3.15791, 18, 11.8082, 24, 7.81906, 21.7514, 9.77382, 18.9123, 7.84339, 15.1037, 6.22854, 10.5209, 5.01206, 5.39883, 4.2563, -4.40873e-15, 4, -5.39883, 4.2563, -10.5209, 5.01206, -15.1037, 6.22854, -18.9123, 7.84339, -21.7514, 9.77382),
+"r": 0,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(0, -2),
+"r": 1,
+"rad": 2.8,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(-12, 3),
+"r": 1,
+"rad": 2.0,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(12, 3),
+"r": 1,
+"rad": 2.0,
+"shade": 1.0
+}])
+default_metal = Color(0.831373, 0.686275, 0.215686, 1)
+default_gem = Color(0.815686, 0, 0, 1)

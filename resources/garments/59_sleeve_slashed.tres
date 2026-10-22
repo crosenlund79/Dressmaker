@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="GarmentDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/garment_definition.gd" id="1_7wrtr"]
+
+[resource]
+script = ExtResource("1_7wrtr")
+id = "sleeve_slashed"
+display_name = "Renaissance Slashed Puff"
+category = "sleeve"
+outline = PackedVector2Array(-1.25, 0.04, -0.8, -0.14, 0.4, -0.18, 1.6, -0.04, 1.9, 0.14, 1.4, 0.3, 1.3, 0.38, 1.7, 0.5, 1.4, 0.6, 1.12, 0.66, 1.12, 1, -1.12, 1, -1.15, 0.66, -1.5, 0.55, -1.3, 0.38, -1.4, 0.25)
+detail_lines = Array[PackedVector2Array]([PackedVector2Array(-0.6, -0.08, -0.6, 0.28), PackedVector2Array(0.3, -0.12, 0.3, 0.3), PackedVector2Array(1.1, -0.06, 1.1, 0.3), PackedVector2Array(-0.8, 0.42, -0.8, 0.6), PackedVector2Array(0.2, 0.4, 0.2, 0.62), PackedVector2Array(1, 0.42, 1, 0.6)])
+detail_dots = PackedVector2Array()
+default_fabric = "brocade"
+default_color = Color(0.101961, 0.101961, 0.101961, 1)
+default_secondary = Color(0.690196, 0.552941, 0.341176, 1)
+default_trim = Color(0.85098, 0.698039, 0.360784, 1)
+tags = PackedStringArray("renaissance")

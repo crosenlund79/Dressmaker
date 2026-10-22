@@ -1,0 +1,32 @@
+[gd_resource type="Resource" script_class="BodyDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/body_definition.gd" id="1_ikpov"]
+
+[resource]
+script = ExtResource("1_ikpov")
+id = "petite"
+display_name = "Petite"
+description = "Shorter stature with a compact frame."
+head_radius = 34.0
+head_center_y = -506.0
+neck_hw = 14.0
+shoulder_y = -441.0
+shoulder_hw = 63.0
+chest_hw = 51.0
+bust_hw = 56.0
+waist_y = -333.0
+waist_hw = 37.0
+hip_y = -275.0
+hip_hw = 60.0
+knee_y = -150.0
+leg_hw_top = 25.0
+leg_hw_knee = 14.0
+leg_hw_ankle = 8.5
+ankle_y = -24.0
+ankle_x = 23.0
+foot_scale = 0.92
+arm_length = 200.0
+arm_hw_top = 12.0
+arm_hw_wrist = 7.0
+arm_angle_deg = 16.0
+skin_color = Color(0.87, 0.68, 0.52, 1)

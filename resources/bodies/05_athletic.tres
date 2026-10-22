@@ -1,0 +1,32 @@
+[gd_resource type="Resource" script_class="BodyDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/body_definition.gd" id="1_0othi"]
+
+[resource]
+script = ExtResource("1_0othi")
+id = "athletic"
+display_name = "Athletic"
+description = "Broad shoulders, strong arms, slim hips."
+head_radius = 36.0
+head_center_y = -560.0
+neck_hw = 17.0
+shoulder_y = -490.0
+shoulder_hw = 83.0
+chest_hw = 67.0
+bust_hw = 64.0
+waist_y = -370.0
+waist_hw = 50.0
+hip_y = -305.0
+hip_hw = 61.0
+knee_y = -165.0
+leg_hw_top = 28.0
+leg_hw_knee = 17.0
+leg_hw_ankle = 10.0
+ankle_y = -26.0
+ankle_x = 25.0
+foot_scale = 1.0
+arm_length = 225.0
+arm_hw_top = 15.5
+arm_hw_wrist = 8.5
+arm_angle_deg = 16.0
+skin_color = Color(0.42, 0.28, 0.2, 1)

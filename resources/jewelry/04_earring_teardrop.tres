@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="JewelryDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/jewelry_definition.gd" id="1_0ig1e"]
+
+[resource]
+script = ExtResource("1_0ig1e")
+id = "earring_teardrop"
+display_name = "Teardrop Gems"
+category = "earrings"
+shapes = Array[Dictionary]([{
+"k": "circle",
+"p": PackedVector2Array(0, 1),
+"r": 0,
+"rad": 2.0,
+"shade": 1.0
+}, {
+"k": "line",
+"p": PackedVector2Array(0, 1, 0, 5),
+"r": 0,
+"shade": 1.0,
+"w": 1.2
+}, {
+"k": "poly",
+"p": PackedVector2Array(0, 5, 3.5, 11, 3, 14, 0, 16, -3, 14, -3.5, 11),
+"r": 1,
+"shade": 1.0
+}, {
+"k": "line",
+"p": PackedVector2Array(0, 5, 3.5, 11, 3, 14, 0, 16, -3, 14, -3.5, 11, 0, 5),
+"r": 0,
+"shade": 1.0,
+"w": 0.8
+}])
+default_metal = Color(0.811765, 0.827451, 0.839216, 1)
+default_gem = Color(0.227451, 0.52549, 1, 1)

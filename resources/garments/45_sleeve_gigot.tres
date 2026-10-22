@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="GarmentDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/garment_definition.gd" id="1_e8hr1"]
+
+[resource]
+script = ExtResource("1_e8hr1")
+id = "sleeve_gigot"
+display_name = "Leg-of-Mutton Sleeve"
+category = "sleeve"
+outline = PackedVector2Array(-1.3, 0.05, -0.9, -0.22, 0.5, -0.32, 2.4, -0.12, 3.4, 0.15, 3.2, 0.38, 2, 0.55, 1.2, 0.64, 1.12, 1, -1.12, 1, -1.2, 0.6, -1.6, 0.35)
+detail_lines = Array[PackedVector2Array]([PackedVector2Array(0.2, -0.25, 0.5, 0.55), PackedVector2Array(1.4, -0.2, 1.6, 0.5), PackedVector2Array(-1.12, 0.92, 1.12, 0.92)])
+detail_dots = PackedVector2Array()
+default_fabric = "velvet"
+default_color = Color(0.352941, 0.164706, 0.431373, 1)
+default_secondary = Color(0.823529, 0.705882, 0.870588, 1)
+default_trim = Color(0.890196, 0.772549, 0.541176, 1)
+tags = PackedStringArray("victorian", "oversized")

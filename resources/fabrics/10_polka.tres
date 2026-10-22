@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="FabricDefinition" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/fabric_definition.gd" id="1_eufyk"]
+[ext_resource type="Texture2D" path="res://assets/fabrics/polka.png" id="2_pomfq"]
+
+[resource]
+script = ExtResource("1_eufyk")
+id = "polka"
+display_name = "Polka Dots"
+texture = ExtResource("2_pomfq")
+tile_size = 100.0
+default_color = Color(0.113725, 0.207843, 0.341176, 1)
+default_secondary = Color(0.945098, 0.980392, 0.933333, 1)

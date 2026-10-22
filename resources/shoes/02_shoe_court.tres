@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="ShoeDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/shoe_definition.gd" id="1_gcx1f"]
+
+[resource]
+script = ExtResource("1_gcx1f")
+id = "shoe_court"
+display_name = "Low Court Heel"
+region_names = PackedStringArray("Upper", "Heel", "Sole")
+region_defaults = PackedColorArray(0.121569, 0.227451, 0.372549, 1, 0.121569, 0.227451, 0.372549, 1, 0.0784314, 0.0784314, 0.0784314, 1)
+shapes = Array[Dictionary]([{
+"k": "poly",
+"p": PackedVector2Array(-12, -15, -13, -26, -2, -25, 7, -21.4, 17, -14.8, 27, -11, 33, -8, 40, -4, 16, -3, 2, -10.44),
+"r": 0,
+"shade": 1.0
+}, {
+"k": "poly",
+"p": PackedVector2Array(-12.5, -12, -2, -12, -6, -5.4, -5.5, 0, -10, 0, -11, -6),
+"r": 1,
+"shade": 1.0
+}, {
+"k": "poly",
+"p": PackedVector2Array(2, -10.44, 16, -3, 39.5, -3, 38.5, 0, 8, 0, 2, -9),
+"r": 2,
+"shade": 1.0
+}])
+heel_lift = 12.0

@@ -1,0 +1,32 @@
+[gd_resource type="Resource" script_class="BodyDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/body_definition.gd" id="1_614qq"]
+
+[resource]
+script = ExtResource("1_614qq")
+id = "classic"
+display_name = "Classic"
+description = "Balanced, average proportions."
+head_radius = 36.0
+head_center_y = -560.0
+neck_hw = 15.0
+shoulder_y = -490.0
+shoulder_hw = 70.0
+chest_hw = 56.0
+bust_hw = 60.0
+waist_y = -370.0
+waist_hw = 40.0
+hip_y = -305.0
+hip_hw = 64.0
+knee_y = -165.0
+leg_hw_top = 27.0
+leg_hw_knee = 15.0
+leg_hw_ankle = 9.0
+ankle_y = -26.0
+ankle_x = 25.0
+foot_scale = 1.0
+arm_length = 225.0
+arm_hw_top = 13.0
+arm_hw_wrist = 7.5
+arm_angle_deg = 16.0
+skin_color = Color(0.96, 0.82, 0.72, 1)

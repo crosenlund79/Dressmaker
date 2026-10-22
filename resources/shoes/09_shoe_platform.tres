@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="ShoeDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/shoe_definition.gd" id="1_153dh"]
+
+[resource]
+script = ExtResource("1_153dh")
+id = "shoe_platform"
+display_name = "Unconventional Platform"
+region_names = PackedStringArray("Upper", "Heel", "Sole")
+region_defaults = PackedColorArray(1, 0.439216, 0.65098, 1, 0.439216, 0.839216, 1, 1, 1, 0.839216, 0.439216, 1)
+shapes = Array[Dictionary]([{
+"k": "poly",
+"p": PackedVector2Array(-12, -57, -13, -70, -2, -69, 7, -50.2, 17, -36.4, 27, -29, 31, -28, 35, -24, 34, -21, 16, -21, 2, -43.32),
+"r": 0,
+"shade": 1.0
+}, {
+"k": "poly",
+"p": PackedVector2Array(-12.5, -54, -2.5, -54, -3.5, 0, -11.5, 0),
+"r": 1,
+"shade": 1.0
+}, {
+"k": "poly",
+"p": PackedVector2Array(2, -43.32, 16, -21, 34.5, -21, 33.5, 0, 8, 0, 2, -39),
+"r": 2,
+"shade": 1.0
+}])
+heel_lift = 54.0

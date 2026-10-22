@@ -1,0 +1,69 @@
+[gd_resource type="Resource" script_class="ShoeDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/shoe_definition.gd" id="1_ml5ga"]
+
+[resource]
+script = ExtResource("1_ml5ga")
+id = "shoe_crystal"
+display_name = "Crystal Heel"
+region_names = PackedStringArray("Upper", "Heel", "Sole", "Crystals")
+region_defaults = PackedColorArray(0.741176, 0.878431, 0.996078, 1, 0.803922, 0.705882, 0.858824, 1, 0.635294, 0.823529, 1, 1, 1, 1, 1, 1)
+shapes = Array[Dictionary]([{
+"k": "poly",
+"p": PackedVector2Array(-12, -31, -13, -40, -2, -39, 7, -28.6, 17, -17.2, 27, -11, 33, -8, 40, -4, 16, -3, 2, -20.36),
+"r": 0,
+"shade": 1.0
+}, {
+"k": "poly",
+"p": PackedVector2Array(-12, -28, -5, -28, -9.5, 0, -11.5, 0),
+"r": 1,
+"shade": 1.0
+}, {
+"k": "poly",
+"p": PackedVector2Array(2, -20.36, 16, -3, 39.5, -3, 38.5, 0, 8, 0, 2, -17),
+"r": 2,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(22, -12.8),
+"r": 3,
+"rad": 1.8,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(17.5, -15.8),
+"r": 3,
+"rad": 1.8,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(13, -12.8),
+"r": 3,
+"rad": 1.8,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(8.5, -15.8),
+"r": 3,
+"rad": 1.8,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(4, -12.8),
+"r": 3,
+"rad": 1.8,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(-0.5, -15.8),
+"r": 3,
+"rad": 1.8,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(-5, -12.8),
+"r": 3,
+"rad": 1.8,
+"shade": 1.0
+}])
+heel_lift = 28.0

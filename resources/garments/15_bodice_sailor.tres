@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="GarmentDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/garment_definition.gd" id="1_36fg6"]
+
+[resource]
+script = ExtResource("1_36fg6")
+id = "bodice_sailor"
+display_name = "Sailor Collar Blouse"
+category = "bodice"
+outline = PackedVector2Array(0, 0.04, 0.24, -0.08, 0.6, -0.05, 1.06, 0, 1.07, 0.12, 1.02, 0.24, 1.07, 0.6, 1.1, 1, 0, 1, -1.1, 1, -1.07, 0.6, -1.02, 0.24, -1.07, 0.12, -1.06, 0, -0.6, -0.05, -0.24, -0.08)
+detail_lines = Array[PackedVector2Array]([PackedVector2Array(0.24, -0.08, 0, 0.42), PackedVector2Array(-0.24, -0.08, 0, 0.42), PackedVector2Array(0.24, -0.08, 0.7, -0.03, 0.62, 0.22, 0.1, 0.36), PackedVector2Array(-0.24, -0.08, -0.7, -0.03, -0.62, 0.22, -0.1, 0.36), PackedVector2Array(0.6, 0.17, 0.13, 0.3), PackedVector2Array(-0.6, 0.17, -0.13, 0.3)])
+detail_dots = PackedVector2Array(0, 0.44, -0.04, 0.48, 0.04, 0.48)
+default_fabric = "stripes"
+default_color = Color(0.968627, 0.968627, 0.94902, 1)
+default_secondary = Color(0.121569, 0.227451, 0.407843, 1)
+default_trim = Color(0.121569, 0.227451, 0.407843, 1)
+tags = PackedStringArray("casual")

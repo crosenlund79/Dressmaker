@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="GarmentDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/garment_definition.gd" id="1_euvi7"]
+
+[resource]
+script = ExtResource("1_euvi7")
+id = "sleeve_butterfly"
+display_name = "Butterfly Wing Sleeve"
+category = "sleeve"
+outline = PackedVector2Array(-1, 0.02, -0.2, -0.1, 1, -0.2, 3, -0.55, 5, -0.45, 5.8, -0.1, 5.2, 0.3, 3.5, 0.55, 2, 0.5, 1.1, 0.55, -1, 0.42)
+detail_lines = Array[PackedVector2Array]([PackedVector2Array(0.8, 0, 5, -0.42), PackedVector2Array(0.8, 0.05, 5.6, -0.1), PackedVector2Array(0.8, 0.1, 5.1, 0.28), PackedVector2Array(0.8, 0.15, 3.4, 0.52)])
+detail_dots = PackedVector2Array(3.8, -0.2, 4.4, 0.1)
+default_fabric = "silk"
+default_color = Color(1, 0.686275, 0.8, 1)
+default_secondary = Color(0.803922, 0.705882, 0.858824, 1)
+default_trim = Color(1, 1, 1, 1)
+tags = PackedStringArray("fantasy", "experimental")

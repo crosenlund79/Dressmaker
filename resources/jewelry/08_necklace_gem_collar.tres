@@ -1,0 +1,59 @@
+[gd_resource type="Resource" script_class="JewelryDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/jewelry_definition.gd" id="1_dxbmq"]
+
+[resource]
+script = ExtResource("1_dxbmq")
+id = "necklace_gem_collar"
+display_name = "Jeweled Collar"
+category = "necklace"
+shapes = Array[Dictionary]([{
+"k": "poly",
+"p": PackedVector2Array(24, -6, 23.5388, -2.09819, 22.1731, 1.65367, 19.9553, 5.1114, 16.9706, 8.14214, 13.3337, 10.6294, 9.1844, 12.4776, 4.68217, 13.6157, 1.46958e-15, 14, -4.68217, 13.6157, -9.1844, 12.4776, -13.3337, 10.6294, -16.9706, 8.14214, -19.9553, 5.1114, -22.1731, 1.65367, -23.5388, -2.09819, -24, -6, 20, -6, 19.6157, -3.65892, 18.4776, -1.4078, 16.6294, 0.666843, 14.1421, 2.48528, 11.1114, 3.97764, 7.65367, 5.08655, 3.90181, 5.76942, 1.22465e-15, 6, -3.90181, 5.76942, -7.65367, 5.08655, -11.1114, 3.97764, -14.1421, 2.48528, -16.6294, 0.666843, -18.4776, -1.4078, -19.6157, -3.65892, -20, -6),
+"r": 0,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(19.0526, 2),
+"r": 1,
+"rad": 2.2,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(14.1413, 6.25671),
+"r": 1,
+"rad": 2.2,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(7.52444, 9.03508),
+"r": 1,
+"rad": 2.2,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(1.34711e-15, 10),
+"r": 1,
+"rad": 2.2,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(-7.52444, 9.03508),
+"r": 1,
+"rad": 2.2,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(-14.1413, 6.25671),
+"r": 1,
+"rad": 2.2,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(-19.0526, 2),
+"r": 1,
+"rad": 2.2,
+"shade": 1.0
+}])
+default_metal = Color(0.831373, 0.686275, 0.215686, 1)
+default_gem = Color(0.164706, 0.615686, 0.560784, 1)

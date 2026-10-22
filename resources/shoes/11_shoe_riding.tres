@@ -1,0 +1,32 @@
+[gd_resource type="Resource" script_class="ShoeDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/shoe_definition.gd" id="1_3fp6x"]
+
+[resource]
+script = ExtResource("1_3fp6x")
+id = "shoe_riding"
+display_name = "Tall Riding Boot"
+region_names = PackedStringArray("Upper", "Heel", "Sole", "Cuff")
+region_defaults = PackedColorArray(0.168627, 0.113725, 0.0784314, 1, 0.0705882, 0.0470588, 0.0313726, 1, 0.0705882, 0.0470588, 0.0313726, 1, 0.545098, 0.352941, 0.168627, 1)
+shapes = Array[Dictionary]([{
+"k": "poly",
+"p": PackedVector2Array(-12, -11, -12.5, -112, -11, -116, 10, -116, 10.5, -112, 9.5, -21.6, 17, -14.2, 27, -11, 31, -10, 35, -6, 34, -3, 16, -3, 2, -7.96),
+"r": 0,
+"shade": 1.0
+}, {
+"k": "poly",
+"p": PackedVector2Array(-12.5, -8, -2.5, -8, -3.5, 0, -11.5, 0),
+"r": 1,
+"shade": 1.0
+}, {
+"k": "poly",
+"p": PackedVector2Array(2, -7.96, 16, -3, 34.5, -3, 33.5, 0, 8, 0, 2, -7),
+"r": 2,
+"shade": 1.0
+}, {
+"k": "poly",
+"p": PackedVector2Array(-13, -118, 11, -118, 11.5, -106, -13.5, -106),
+"r": 3,
+"shade": 1.0
+}])
+heel_lift = 8.0

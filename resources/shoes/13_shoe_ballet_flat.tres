@@ -1,0 +1,38 @@
+[gd_resource type="Resource" script_class="ShoeDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/shoe_definition.gd" id="1_l5ipj"]
+
+[resource]
+script = ExtResource("1_l5ipj")
+id = "shoe_ballet_flat"
+display_name = "Ballet Flat"
+region_names = PackedStringArray("Upper", "Sole", "Bow")
+region_defaults = PackedColorArray(0.956863, 0.760784, 0.760784, 1, 0.780392, 0.603922, 0.603922, 1, 0.878431, 0.478431, 0.560784, 1)
+shapes = Array[Dictionary]([{
+"k": "poly",
+"p": PackedVector2Array(-12, -4, -13, -13, -4, -11, 8, -12.35, 14, -12.2, 17, -13.15, 27, -11, 31, -10, 35, -6, 34, -3, 16, -3, 2, -3.62),
+"r": 0,
+"shade": 1.0
+}, {
+"k": "poly",
+"p": PackedVector2Array(-12.5, -3, 34.5, -3, 33.5, 0, -12, 0),
+"r": 1,
+"shade": 1.0
+}, {
+"k": "poly",
+"p": PackedVector2Array(18, -13.15, 12, -17.15, 12, -10.15),
+"r": 2,
+"shade": 1.0
+}, {
+"k": "poly",
+"p": PackedVector2Array(18, -13.15, 24, -17.15, 24, -10.15),
+"r": 2,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(18, -13.15),
+"r": 2,
+"rad": 1.8,
+"shade": 0.85
+}])
+heel_lift = 1.0

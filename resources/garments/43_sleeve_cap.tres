@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="GarmentDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/garment_definition.gd" id="1_1m743"]
+
+[resource]
+script = ExtResource("1_1m743")
+id = "sleeve_cap"
+display_name = "Cap Sleeve"
+category = "sleeve"
+outline = PackedVector2Array(-1.1, 0.04, -0.4, -0.08, 0.6, -0.08, 1.3, 0.02, 1.4, 0.18, 0.4, 0.24, -1.1, 0.2)
+detail_lines = Array[PackedVector2Array]([PackedVector2Array(-1.1, 0.17, 0.4, 0.21, 1.36, 0.15)])
+detail_dots = PackedVector2Array()
+default_fabric = "cotton"
+default_color = Color(0.956863, 0.92549, 0.862745, 1)
+default_secondary = Color(0.85098, 0.784314, 0.658824, 1)
+default_trim = Color(0.627451, 0.321569, 0.176471, 1)
+tags = PackedStringArray("short")

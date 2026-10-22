@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="GarmentDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/garment_definition.gd" id="1_cchqf"]
+
+[resource]
+script = ExtResource("1_cchqf")
+id = "bodice_high_neck"
+display_name = "High-Neck Bodice"
+category = "bodice"
+outline = PackedVector2Array(0, -0.3, 0.16, -0.33, 0.27, -0.32, 0.28, -0.1, 0.6, -0.05, 1.03, 0, 1.04, 0.1, 0.99, 0.24, 1.03, 0.6, 1.05, 1, 0, 1.03, -1.05, 1, -1.03, 0.6, -0.99, 0.24, -1.04, 0.1, -1.03, 0, -0.6, -0.05, -0.28, -0.1, -0.27, -0.32, -0.16, -0.33)
+detail_lines = Array[PackedVector2Array]([PackedVector2Array(0.12, 0, 0.12, 0.55), PackedVector2Array(-0.12, 0, -0.12, 0.55), PackedVector2Array(0.22, -0.04, 0.22, 0.5), PackedVector2Array(-0.22, -0.04, -0.22, 0.5), PackedVector2Array(-0.28, -0.1, 0, -0.07, 0.28, -0.1)])
+detail_dots = PackedVector2Array(0, -0.26, 0, -0.115, 0, 0.03, 0, 0.175, 0, 0.32, 0, 0.465, 0, 0.61, 0, 0.755, 0, 0.9)
+default_fabric = "linen"
+default_color = Color(0.945098, 0.901961, 0.823529, 1)
+default_secondary = Color(0.788235, 0.717647, 0.603922, 1)
+default_trim = Color(0.541176, 0.427451, 0.294118, 1)
+tags = PackedStringArray("victorian")

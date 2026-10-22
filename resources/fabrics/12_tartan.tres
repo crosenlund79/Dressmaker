@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="FabricDefinition" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/fabric_definition.gd" id="1_ssask"]
+[ext_resource type="Texture2D" path="res://assets/fabrics/tartan.png" id="2_u3veo"]
+
+[resource]
+script = ExtResource("1_ssask")
+id = "tartan"
+display_name = "Tartan"
+texture = ExtResource("2_u3veo")
+tile_size = 140.0
+default_color = Color(0.121569, 0.305882, 0.239216, 1)
+default_secondary = Color(0.643137, 0.0862745, 0.101961, 1)

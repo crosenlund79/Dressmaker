@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="GarmentDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/garment_definition.gd" id="1_d643k"]
+
+[resource]
+script = ExtResource("1_d643k")
+id = "sleeve_juliet"
+display_name = "Juliet Sleeve"
+category = "sleeve"
+outline = PackedVector2Array(-1.25, 0.05, -0.8, -0.14, 0.4, -0.18, 1.6, -0.02, 1.9, 0.16, 1.4, 0.3, 1.1, 0.34, 1.12, 1, -1.12, 1, -1.1, 0.34, -1.4, 0.24)
+detail_lines = Array[PackedVector2Array]([PackedVector2Array(-1.1, 0.34, 1.1, 0.34), PackedVector2Array(-1.12, 0.92, 1.12, 0.92)])
+detail_dots = PackedVector2Array()
+default_fabric = "velvet"
+default_color = Color(0.184314, 0.364706, 0.313726, 1)
+default_secondary = Color(0.847059, 0.760784, 0.478431, 1)
+default_trim = Color(0.85098, 0.698039, 0.360784, 1)
+tags = PackedStringArray("renaissance")

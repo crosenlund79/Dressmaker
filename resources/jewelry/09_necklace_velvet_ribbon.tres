@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="JewelryDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/jewelry_definition.gd" id="1_nmsk5"]
+
+[resource]
+script = ExtResource("1_nmsk5")
+id = "necklace_velvet_ribbon"
+display_name = "Velvet Ribbon Choker"
+category = "necklace"
+shapes = Array[Dictionary]([{
+"k": "line",
+"p": PackedVector2Array(-15, -10, 0, -7, 15, -10),
+"r": 1,
+"shade": 0.9,
+"w": 4.5
+}, {
+"k": "line",
+"p": PackedVector2Array(0, -6, 0, 0),
+"r": 0,
+"shade": 1.0,
+"w": 1.0
+}, {
+"k": "poly",
+"p": PackedVector2Array(2.75546e-16, -1.5, 1.17557, 1.38197, 4.27975, 1.60942, 1.90211, 3.61803, 2.64503, 6.64058, 1.22465e-16, 5, -2.64503, 6.64058, -1.90211, 3.61803, -4.27975, 1.60942, -1.17557, 1.38197),
+"r": 0,
+"shade": 1.0
+}])
+default_metal = Color(0.811765, 0.827451, 0.839216, 1)
+default_gem = Color(0.105882, 0.105882, 0.227451, 1)

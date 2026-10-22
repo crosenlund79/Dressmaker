@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="JewelryDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/jewelry_definition.gd" id="1_nl5dr"]
+
+[resource]
+script = ExtResource("1_nl5dr")
+id = "earring_drop_pearl"
+display_name = "Drop Pearls"
+category = "earrings"
+shapes = Array[Dictionary]([{
+"k": "line",
+"p": PackedVector2Array(0, 0, 0, 9),
+"r": 0,
+"shade": 1.0,
+"w": 1.4
+}, {
+"k": "circle",
+"p": PackedVector2Array(0, 1),
+"r": 0,
+"rad": 1.8,
+"shade": 1.0
+}, {
+"k": "circle",
+"p": PackedVector2Array(0, 12),
+"r": 1,
+"rad": 3.6,
+"shade": 1.0
+}])
+default_metal = Color(0.831373, 0.686275, 0.215686, 1)
+default_gem = Color(0.956863, 0.937255, 0.901961, 1)
