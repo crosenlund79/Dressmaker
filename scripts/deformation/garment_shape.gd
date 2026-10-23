@@ -22,6 +22,7 @@ var side: int = 1
 var bounds: Rect2
 var cage: Rect2
 var lattice: PackedVector2Array
+var _lattice_active := false
 var basis: Transform2D
 var pivot: Vector2
 
@@ -46,6 +47,7 @@ func _init(def: GarmentDefinition, inst: GarmentInstance, body_def: BodyDefiniti
 	bounds = def.get_local_bounds()
 	cage = GarmentDeformer.cage_rect(bounds)
 	lattice = inst.get_lattice()
+	_lattice_active = inst.has_lattice_edits()
 	basis = GarmentDeformer.affine_basis(inst.scale, inst.rotation, inst.skew)
 	pivot = GarmentDeformer.body_map(GarmentDeformer.pivot_local(category), category, body, side)
 	_parent = parent
@@ -61,6 +63,8 @@ func map_after_ffd(q: Vector2) -> Vector2:
 
 ## Pipeline without the attachment correction.
 func map_unattached(p: Vector2) -> Vector2:
+	if not _lattice_active:
+		return map_after_ffd(p)
 	return map_after_ffd(p + GarmentDeformer.ffd_offset(p, lattice, cage))
 
 
@@ -71,7 +75,7 @@ func map_point(p: Vector2) -> Vector2:
 
 ## Pre-affine model-space mapping (for the Basic-mode handle box).
 func map_pre_affine(p: Vector2) -> Vector2:
-	var q := p + GarmentDeformer.ffd_offset(p, lattice, cage)
+	var q := p + GarmentDeformer.ffd_offset(p, lattice, cage) if _lattice_active else p
 	var bf := GarmentDeformer.bend_flare(q, category, bounds, instance.bend, instance.flare)
 	return GarmentDeformer.body_map(bf, category, body, side)
 

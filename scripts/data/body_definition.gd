@@ -45,8 +45,23 @@ extends Resource
 @export var skin_color: Color = Color(0.96, 0.82, 0.72)
 
 const CHEST_V := 0.22
+
+# Cached silhouette knots (body definitions are treated as immutable at runtime).
+var _knot_y := PackedFloat32Array()
+var _knot_w := PackedFloat32Array()
 const BUST_V := 0.40
 const SHOULDER_ANCHOR := Vector2(0.9, 0.05)  # in bodice frame
+
+
+func _build_knots() -> void:
+	var d := torso_length()
+	_knot_y = PackedFloat32Array([shoulder_y, shoulder_y + CHEST_V * d, shoulder_y + BUST_V * d, waist_y, hip_y])
+	_knot_w = PackedFloat32Array([shoulder_hw, chest_hw, bust_hw, waist_hw, hip_hw])
+
+
+## Call after changing measurements at runtime (e.g. in the editor).
+func invalidate_cache() -> void:
+	_knot_y = PackedFloat32Array()
 
 
 func torso_length() -> float:
@@ -60,9 +75,10 @@ func skirt_length() -> float:
 ## Half width of the body silhouette at a model-space height.
 ## Shared by the bodice and skirt frames so both agree at the waist seam.
 func silhouette_hw(y: float) -> float:
-	var d := torso_length()
-	var ys := PackedFloat32Array([shoulder_y, shoulder_y + CHEST_V * d, shoulder_y + BUST_V * d, waist_y, hip_y])
-	var ws := PackedFloat32Array([shoulder_hw, chest_hw, bust_hw, waist_hw, hip_hw])
+	if _knot_y.is_empty():
+		_build_knots()
+	var ys := _knot_y
+	var ws := _knot_w
 	if y <= ys[0]:
 		return ws[0]
 	if y >= ys[4]:

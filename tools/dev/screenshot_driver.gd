@@ -42,8 +42,8 @@ func _ready() -> void:
 	get_tree().quit()
 
 
-func _run_script(name: String, editor: FashionEditor) -> void:
-	match name:
+func _run_script(script_name: String, editor: FashionEditor) -> void:
+	match script_name:
 		"demo":
 			editor.change("demo", func():
 				var d := editor.design

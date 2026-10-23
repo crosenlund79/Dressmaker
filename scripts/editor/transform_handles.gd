@@ -96,10 +96,10 @@ func _unhandled_input(event: InputEvent) -> void:
 		return
 	if event is InputEventMouseButton and event.button_index == MOUSE_BUTTON_LEFT:
 		if event.pressed:
-			_on_press()
+			if _on_press(get_local_mouse_position()):
+				get_viewport().set_input_as_handled()
 		elif not _drag.is_empty():
-			_drag = {}
-			editor.end_interaction()
+			end_drag()
 			get_viewport().set_input_as_handled()
 	elif event is InputEventMouseMotion:
 		var m := get_local_mouse_position()
@@ -116,23 +116,22 @@ func _unhandled_input(event: InputEvent) -> void:
 			Input.set_default_cursor_shape(Input.CURSOR_POINTING_HAND if not _hover.is_empty() else Input.CURSOR_ARROW)
 
 
-func _on_press() -> void:
-	var m := get_local_mouse_position()
+## Starts a drag at model point `m`. Returns true if the click was consumed.
+func _on_press(m: Vector2) -> bool:
 	presentation.note_activity()
 	var h := _hit(m)
 	if h.is_empty():
 		var picked := presentation.pick(m)
 		if picked == "":
-			return
+			return false
 		if picked != editor.selected_slot:
 			editor.select(picked)
 		if not DressDesign.is_garment_slot(picked):
-			get_viewport().set_input_as_handled()
-			return
+			return true
 		h = {"id": "move", "pos": m}
 	var shape := _shape()
 	if shape == null:
-		return
+		return false
 	var inst := shape.instance
 	_drag = h.duplicate()
 	_drag["m0"] = m
@@ -151,7 +150,17 @@ func _on_press() -> void:
 	if h["id"] == "cage":
 		_drag["cage0"] = h["pos"]
 	editor.begin_interaction("Transform" if h["id"] != "cage" else "Curve edit")
-	get_viewport().set_input_as_handled()
+	return true
+
+
+func end_drag() -> void:
+	_drag = {}
+	editor.end_interaction()
+
+
+## Handle layout for the current selection (exposed for tests and tools).
+func get_handles() -> Array[Dictionary]:
+	return _handles()
 
 
 func _on_drag(m: Vector2, shift: bool) -> void:

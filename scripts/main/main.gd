@@ -42,7 +42,10 @@ func _ready() -> void:
 	music.state_changed.connect(func(p): boutique.radio.playing = p)
 	_last_template_sig = _template_signature()
 
-	if OS.get_cmdline_user_args().size() > 0 and ResourceLoader.exists("res://tools/dev/screenshot_driver.gd"):
+	var wants_shot := false
+	for a in OS.get_cmdline_user_args():
+		wants_shot = wants_shot or a.begins_with("--shot")
+	if wants_shot and ResourceLoader.exists("res://tools/dev/screenshot_driver.gd"):
 		var driver: Node = load("res://tools/dev/screenshot_driver.gd").new()
 		driver.set("main", self)
 		add_child(driver)

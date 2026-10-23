@@ -394,10 +394,10 @@ func _build_palette_section() -> void:
 	_content.add_child(_recent_row)
 	_update_recent_row()
 	if not _primary_setter.is_valid():
-		for c in _recent_row.get_children():
-			(c as Button).disabled = true
-		for c in flow.get_children():
-			(c as Button).disabled = true
+		for row in [_recent_row, flow]:
+			for c in row.get_children():
+				if c is Button:
+					c.disabled = true
 
 
 func _apply_quick_color(c: Color) -> void:

@@ -43,15 +43,28 @@ static func ffd_offset(p: Vector2, lattice: PackedVector2Array, cage: Rect2) -> 
 		return Vector2.ZERO
 	var s := clampf((p.x - cage.position.x) / maxf(cage.size.x, 1e-5), 0.0, 1.0)
 	var t := clampf((p.y - cage.position.y) / maxf(cage.size.y, 1e-5), 0.0, 1.0)
-	var bs := [bernstein3(0, s), bernstein3(1, s), bernstein3(2, s), bernstein3(3, s)]
-	var bt := [bernstein3(0, t), bernstein3(1, t), bernstein3(2, t), bernstein3(3, t)]
+	var ms := 1.0 - s
+	var mt := 1.0 - t
+	var bs0 := ms * ms * ms
+	var bs1 := 3.0 * s * ms * ms
+	var bs2 := 3.0 * s * s * ms
+	var bs3 := s * s * s
 	var out := Vector2.ZERO
 	for iy in range(LATTICE_N):
-		var wy: float = bt[iy]
+		var wy: float
+		match iy:
+			0:
+				wy = mt * mt * mt
+			1:
+				wy = 3.0 * t * mt * mt
+			2:
+				wy = 3.0 * t * t * mt
+			_:
+				wy = t * t * t
 		if wy == 0.0:
 			continue
-		for ix in range(LATTICE_N):
-			out += lattice[iy * LATTICE_N + ix] * (wy * bs[ix])
+		var row := iy * LATTICE_N
+		out += (lattice[row] * bs0 + lattice[row + 1] * bs1 + lattice[row + 2] * bs2 + lattice[row + 3] * bs3) * wy
 	return out
 
 
