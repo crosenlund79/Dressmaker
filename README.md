@@ -58,6 +58,7 @@ there too.
 | Shoes | **20** designs, each with 3–5 parts you can colour separately (upper, sole, heel, toe cap, laces, buckles, bows, gems…). Heels raise the model |
 | Jewelry | Earrings (5), necklaces (6), bracelets (4), anklets (4), tiaras (5). Each has metal and gem colours and a show/hide toggle. Tiaras sit on top of the current hairstyle |
 | Hair | **30** styles: **20** with one colour and **10** with 2–3 colours, any colour you like |
+| Mannequin fit | The model's body conforms to whatever it wears. Covered skin, chemise and bloomers follow the fabric through every transform and curve edit, so they never show beside a narrowed or reshaped piece. Bare shoulders, necklines and legs below a hem stay visible. Hands and bracelets follow moved cuffs |
 | Layers | Fixed draw order; options to tuck the bodice under the skirt and to draw sleeves over the bodice |
 | Undo/redo | All design changes (colours, textures, pieces, transforms, curve points, body, shoes, hair, jewelry, new/load). A full drag or slider movement counts as one step |
 | Boutique | Wallpapered shop with two street windows, curtains, a fabric shelf, a sewing table, a dress form, a counter, a cheval mirror that shows the outfit, a fitting platform and wall sconces |
@@ -134,6 +135,15 @@ For each local point `p` of a garment:
    the offset of the bodice's deformed shoulder anchor, which fades toward the
    wrist so the cuffs stay at the hands. Both can be turned off per piece.
 
+**Mannequin fitting** (`BodyFitter`): every body vertex is converted into the
+local frame of the garment over it. If it lies inside the template's rest
+silhouette, it is bound to that garment and drawn through the same pipeline
+(steps 1–5), so the body moves and shrinks with the fabric. Where a template is
+a little narrower than the body, covered vertices are first pulled 3 px inside
+the silhouette. Vertices outside every garment, such as bare shoulders, necklines
+and legs below a hem, are left alone. The bindings depend only on the body and
+the chosen templates, so dragging only re-maps the points.
+
 Each template is triangulated **once**, in its rest pose, as a subdivided mesh (a
 Delaunay triangulation of the outline plus interior points). Only the vertices are
 deformed afterwards, so even extreme edits never break the triangulation. UVs come
@@ -201,7 +211,7 @@ come from `python3 tools/compose_music.py`, which needs numpy and ffmpeg.
 
 ```
 tools/check.sh                                         # refresh import cache, load every script/scene
-godot --headless --path . tests/test_runner.tscn       # 41 automated tests (exit code 1 on failure)
+godot --headless --path . tests/test_runner.tscn       # 43 automated tests (exit code 1 on failure)
 ```
 
 The tests cover:
@@ -214,12 +224,13 @@ The tests cover:
 * Sleeve attachment and left/right mirroring
 * Dragging a cage point lands it under the cursor
 * Changing body type keeps the dress connected
+* Body under narrowed, rotated and curve-edited garments stays inside the fabric, while exposed areas are untouched
 * Save/load round trip, overwrite, delete, and rejection of unknown formats or versions
 * Undo/redo for colours, textures, templates, transforms, curve points and new designs, including merging a drag into one step
 * An integration test that boots the real main scene and drives the move, rotate and curve-cage handles, then undoes them
 
 **Validation done during development:** all scripts load without errors in Godot
-4.3, and all 41 tests pass headless. The game was also run under Xvfb with Mesa's
+4.3, and all 43 tests pass headless. The game was also run under Xvfb with Mesa's
 software OpenGL. Screenshots of the editor, curve editing, preview, radio,
 save/thumbnail/gallery, and each library category were checked by eye (see
 `docs/screenshots/`). The dev screenshot driver can reproduce them:

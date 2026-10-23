@@ -8,6 +8,7 @@ var definition: JewelryDefinition
 var metal: Color = Color(0.85, 0.7, 0.35)
 var gem: Color = Color.WHITE
 var crown_height: float = 0.1  # from the current hairstyle (tiara seating)
+var wrist_offsets: Array = [Vector2.ZERO, Vector2.ZERO]  # bracelets follow sleeves that move the wrists
 
 
 func _draw() -> void:
@@ -34,7 +35,7 @@ func anchor_transforms() -> Array[Transform2D]:
 			for side in [-1, 1]:
 				var dir := body.arm_direction(side)
 				var across: Vector2 = Vector2(dir.y, -dir.x) * side  # +x points away from the body on both sides
-				var p2 := body.arm_to_model(Vector2(0, 0.93), side)
+				var p2: Vector2 = body.arm_to_model(Vector2(0, 0.93), side) + wrist_offsets[0 if side < 0 else 1]
 				out.append(Transform2D(across * s2, dir * s2, p2))
 		"anklet":
 			var s3 := body.leg_hw_ankle / 9.0

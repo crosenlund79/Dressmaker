@@ -18,6 +18,7 @@ var interactive: bool = true
 
 var shapes: Dictionary = {}  # slot -> GarmentShape (or absent)
 var heel_lift: float = 0.0
+var fitter := BodyFitter.new()
 
 var rig: Node2D
 var hair_back: HairRenderer
@@ -113,8 +114,10 @@ func refresh() -> void:
 	heel_lift = (shoe_def.heel_lift * body.foot_scale) if shoe_def else 0.0
 	rig.position.y = -heel_lift
 	_rebuild_shapes()
+	fitter.update(body, shapes)
 	for node in [legs, torso, hands, head]:
 		node.body = body
+		node.fitter = fitter
 		node.skin = design.skin_color
 		node.show_feet = shoe_def == null
 		node.queue_redraw()
@@ -136,6 +139,7 @@ func refresh() -> void:
 		jr.metal = e.get("metal", Color.GOLD)
 		jr.gem = e.get("gem", Color.WHITE)
 		jr.crown_height = hair_def.crown_height if hair_def else 0.0
+		jr.wrist_offsets = [fitter.wrist_offset(-1), fitter.wrist_offset(1)]
 		jr.queue_redraw()
 	_apply_layer_order()
 	geometry_rebuilt.emit()

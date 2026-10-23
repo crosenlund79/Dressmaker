@@ -63,6 +63,19 @@ func _run_script(script_name: String, editor: FashionEditor) -> void:
 				DesignFactory.set_hair(d, "hair_two_tone_split")
 				d.jewelry["tiara"]["id"] = "tiara_crown"
 				d.jewelry["bracelet"]["id"] = "bracelet_bangle")
+		"fit":
+			editor.change("fit", func():
+				var d := editor.design
+				d.body_id = "full_figure"
+				DesignFactory.set_template(d, "bodice", "bodice_corset", true)
+				DesignFactory.set_template(d, "skirt", "skirt_column", true)
+				d.garment("bodice").scale = Vector2(0.8, 1.0)
+				d.garment("bodice").rotation = 0.12
+				d.garment("skirt").scale = Vector2(0.7, 1.0)
+				d.garment("skirt").bend = 0.8
+				d.garment("sleeve_right").scale = Vector2(0.6, 1.0)
+				d.garment("sleeve_right").rotation = -0.15
+				d.sync_sleeves("sleeve_right"))
 		"wild":
 			editor.change("wild", func():
 				var d := editor.design
